@@ -11,10 +11,19 @@ chapters:
   - file: docs/Area1_Engagement/Newsletters/readme.md
   - file: docs/Area1_Engagement/Open-Science-Stories/readme.md
   - file: docs/Area1_Engagement/Outreach/readme.md
-- file: docs/Area2_Capacity_Sharing/readme.md
+- file: docs/Area2_Capacity_Sharing/Open-Science-101/readme.md
   title: Area 2 - Capacity Sharing
   sections:
-  - file: docs/Area2_Capacity_Sharing/Open-Science-101/readme.md
+  - file: docs/Area2_Capacity_Sharing/Open-Science-101/modules/open_science_ethos_module.md
+    title: Module 1 - Open Science Ethos
+  - file: docs/Area2_Capacity_Sharing/Open-Science-101/modules/open_data_module.md
+    title: Module 2 - Open Data
+  - file: docs/Area2_Capacity_Sharing/Open-Science-101/modules/open_software_module.md
+    title: Module 3 - Open Software
+  - file: docs/Area2_Capacity_Sharing/Open-Science-101/modules/open_results_module.md
+    title: Module 4 - Open Results
+  - file: docs/Area2_Capacity_Sharing/Open-Science-101/modules/open_science_tools_module.md
+    title: Module 5 - Open Science Tools
   - file: docs/Area2_Capacity_Sharing/Activity_Templates/readme.md
   - file: docs/Area2_Capacity_Sharing/ScienceCore/readme.md
 - file: docs/Area3_Incentives/readme.md
