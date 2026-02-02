@@ -1,5 +1,7 @@
 # Transform to Open Science (TOPS)
 
+[![Deploy Book](https://github.com/kefortney/Transform-to-Open-Science/actions/workflows/book.yml/badge.svg?branch=main)](https://github.com/kefortney/Transform-to-Open-Science/actions/workflows/book.yml)
+
 ## Introduction
 
 Want a website instead of a GitHub repo? [https://nasa.github.io/Transform-to-Open-Science/](https://nasa.github.io/Transform-to-Open-Science/)
