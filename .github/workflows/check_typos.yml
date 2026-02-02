@@ -1,10 +1,5 @@
 on:
-    push:
-        branches:
-            - main
-    pull_request:
-        branches:
-            - main
+    workflow_dispatch: # Only manual trigger for now
 
 name: Check typos
 jobs:

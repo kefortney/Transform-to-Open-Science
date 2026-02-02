@@ -1,5 +1,6 @@
 name: Broken link check
-on: [push]
+on: 
+  workflow_dispatch: # Only manual trigger for now
 
 jobs:
   broken_link_checker_job:
