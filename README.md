@@ -1,6 +1,5 @@
 # Transform to Open Science (TOPS)
-
-[![Deploy Book](https://github.com/kefortney/Transform-to-Open-Science/actions/workflows/book.yml/badge.svg?branch=main)](https://github.com/kefortney/Transform-to-Open-Science/actions/workflows/book.yml)
+## Open Science 101 Course
 
 ## About This Project
 
@@ -11,11 +10,9 @@
 - Creating a community-driven platform for open science education and engagement
 - Building on NASA's pioneering work to make open science practices accessible to all
 
-**Rewritten and expanded by VERSO** - a collaborative effort to democratize open science knowledge and practices.
+**Rewritten and expanded by the Vermont Research Open Source Program Office (VERSO) at the University of Vermont** - a collaborative effort to democratize open science knowledge and practices.
 
 ## Introduction
-
-Want a website instead of a GitHub repo? [https://localhost:8000/](http://localhost:8000/) (or check GitHub Pages when deployed)
 
 Ready to get started transforming towards open science with us? Get started [here!](./CONTRIBUTING.md) 
 
@@ -25,40 +22,24 @@ Credit: <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section
 
 <img align="right" src="https://zenodo.org/record/7742997/files/Tops_Badge_Nasa.png" width="300" alt="Transform to Open Science Logo that shows a top as a rocket taking off and the text Transform to Open Science in the white vapor plume around the launch site">
 
-## TOPS Goals and Values
+## Goals and Values
 
 ### What is Open Science?
-Open Science is the principle and practice of making research products and processes available to all, while respecting diverse cultures, maintaining security and privacy, and fostering collaborations, reproducibility, and equity. ([source](https://open.science.gov/))
+Open Science is the principle and practice of making research products and processes available to all, while respecting diverse cultures, maintaining security and privacy, and fostering collaborations, reproducibility, and equity.
 
 ### What We Do
 
-The world is changing rapidly. Everyday new problems emerge and it takes groundbreaking scientific discoveries to solve them. To stay ahead, the pace of science must accelerate and science needs to be even better, more accurate, and faster to enable the truly transformative breakthroughs that will help us thrive. Closed science, hoarding information and resources, silos of knowledge holds science back by limiting who can participate. We need more voices that work together and share knowledge and resources. Only then will we find new and better solutions. NASA's Transform to Open Science (TOPS) mission will allow us to create a scientific culture that is ready for 21st century challenges. Open Science will **broaden participation, increase accessibility to knowledge, and embrace new technologies** that can respond to these changes at scale. We hope you will join us in creating an open science infrastructure in your organization. TOPS will show you how! 
+The world is changing rapidly. Everyday new problems emerge and it takes groundbreaking scientific discoveries to solve them. To stay ahead, the pace of science must accelerate and science needs to be even better, more accurate, and faster to enable the truly transformative breakthroughs that will help us thrive. Closed science, hoarding information and resources, silos of knowledge holds science back by limiting who can participate. We need more voices that work together and share knowledge and resources. Only then will we find new and better solutions. Open Science will **broaden participation, increase accessibility to knowledge, and embrace new technologies** that can respond to these changes at scale. We hope you will join us in creating an open science infrastructure in your organization. 
 
-### TOPS Vision
+### Vision
 A future where new scientific discoveries and solutions are enabled by open science collaborations.
 
-### TOPS Mission
+### Mission
 Inspire and empower scientists, researchers, and communities to embrace open science as a catalyst for positive change, leading to a more equitable and impactful scientific ecosystem.
-
-### Strategic Objectives
-
-Open Science makes research faster, builds a more just and equitable world, and ensures that minds from all walks of life can participate in science. TOPS is NASA’s ambitious plan to accelerate open science practices. It’s a 5 year journey that will  
-1. Accelerate major scientific discoveries 
-2. Broaden participation by historically excluded communities 
-3. Increase understanding and adoption of open science principles and techniques
-
-### Overview Presentation
-Short presentation on TOPS initiative: 
-- Slides: [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5621674.svg)](https://doi.org/10.5281/zenodo.5621674)
-- [Recording](https://youtu.be/Gzg_xTEUOII?t=408) starts at 6:48.
 
 ## Open Science 101 Curriculum
 
-The Open Science 101 curriculum is a 5-module curriculum designed to equip researchers, students and citizen scientists with the knowledge and skills to navigate the principles and practices of open science, including developing an open science and data management plan. Expand your Open Science expertise and equip yourself with the essential skills required to excel in the realm of open science. [Sign up today](https://nasa.github.io/Transform-to-Open-Science/take-os101/) to embark on your journey towards advancing your open science proficiency and gain your NASA Open Science Certification.
-
-### Get your NASA Open Science Badge
-
-To get badged for Open Science 101, find enrollment information [here](https://nasa.github.io/Transform-to-Open-Science/take-os101/).
+The Open Science 101 curriculum is a 5-module curriculum designed to equip researchers, students and citizen scientists with the knowledge and skills to navigate the principles and practices of open science, including developing an open science and data management plan. Expand your Open Science expertise and equip yourself with the essential skills required to excel in the realm of open science. Explore the cirriculum [here](https://verso-uvm.github.io/Transform-to-Open-Science/README.html)
 
 ### Cite Open Science 101
 
@@ -70,103 +51,11 @@ NASA TOPS Open Science 101 Curriculum Development Team. (2023). NASA TOPS Open S
 
 ### Contribute to Open Science 101
 
-TOPS has created a development version of the curriculum written in Markdown to enable the community to help make it even better.  It can be found [here](https://github.com/nasa/Transform-to-Open-Science/tree/open-science-101).
-
-**Note:** This version of the curriculum will not allow  you to get badged.  To get badged for Open Science 101 [ enroll here](https://nasa.github.io/Transform-to-Open-Science/take-os101/).
-
 #### Methods of Contributing
 
-To contribute, you can [create a pull request](https://github.com/nasa/Transform-to-Open-Science/pulls), [open an issue](https://github.com/nasa/Transform-to-Open-Science/issues), or [start a discussion](https://github.com/nasa/Transform-to-Open-Science/discussions). 
+To contribute, you can [create a pull request](https://github.com/VERSO-UVM/Transform-to-Open-Science/pulls), [open an issue](https://github.com/VERSO-UVM/Transform-to-Open-Science/issues), or [add to the wiki](https://github.com/VERSO-UVM/Transform-to-Open-Science/wiki). 
 
 For technical details on contributing to OS 101 and our GitHub in general please visit our [contributing page](./CONTRIBUTING.md#contributing-to-open-science-101-on-github).
-
-### Teaching Open Science 101
-
-#### New Instructors
-
-To become an instructor for Open Science 101, [contact TOPS](mailto:hq-openscience@nasa.gov) to find out more about this process.  More details will be posted soon.
-
-#### Existing Instructors
-
-Are you already teaching OS101?  Learn how you can get your instructor-led training listed on our website by reading our [workshop listing requirements](./docs/Area2_Capacity_Sharing/Open-Science-101/workshop_listings.md).
-
-### Open Science 101 Documentation
-
-For documentation and resources related to the curriculum, check [this directory](./docs/Area2_Capacity_Sharing/Open-Science-101/).
-
-## TOPS and the Year of Open Science
-
-2023 is the Year of Open Science, a NASA initiative to spark change and inspire open science engagement through events and activities that will shift the current paradigm and change practices. *The Transform to Open Science (TOPS) community coordinates efforts designed to rapidly transform agencies, organizations, and communities.* Learn more about NASA's Year of Open Science activities [here](https://nasa.github.io/Transform-to-Open-Science-Book/Year_of_Open_Science_Guide/readme.html).
-
-### Thank You for Joining Us in a Year of Open Science!
-We would like to give a special thank you to [organizations that participated](https://nasa.github.io/Transform-to-Open-Science-Book/Year_of_Open_Science_Guide/readme.html#id1) with us in a Year of Open Science.
-
-## Implementation
-- [Area 1: Engagement](./docs/Area1_Engagement/readme.md): Building community, publishing articles, appearing on podcasts, expanding knowledge about open science, integrating Open Science into themes at large-scale events and conferences.
-- [Area 2: Capacity sharing](./docs/Area2_Capacity_Sharing/readme.md): Producing online, free, open science curriculum, hosting workshops, events, cohorts, science team meetings, hackathons, and constructing multiple pathways to an Open Science Badge.
-- [Area 3: Incentives](./docs/Area3_Incentives/readme.md): Developing Open Science Badge/Certification and establishing high profile awards in support of open science research.
-- [Area 4: Moving towards openness](./docs/Area4_Moving_To_Openness/readme.md): Recognizing open science practices, holding open meetings, and sharing hidden knowledge.
-
-## Join TOPS Mailing List
-Please [join the TOPS email list](https://nasa.github.io/Transform-to-Open-Science/signup/) to hear about further activities and become more involved! [Discussions](https://github.com/nasa/Transform-to-Open-Science/discussions) are enabled for this GitHub repository, so feel free to ask questions or join conversations there.
-
-### Past Newsletter Releases
-For a preview of our content from our email list, feel free to read our [past newsletter releases](./docs/Area1_Engagement/Newsletters).
-
-## Repository
-
-This repository is used to openly share information about TOPS and the Year of Open Science.
-
-### Contribute to the TOPS GitHub Repository
-
-Markdown text documents are used for any planning documents that need to be developed.  This could include linking to other resources. TOPS has few mechanisms for enabling the community to interact with this material:
-
-**Issues:**  Used to collect action items for TOPS to review and implement into the repository.
-
-**Pull Requests:** Enables changes to Markdown code to be proposed through a fork of our repository.  TOPS will review and merge these changes with consideration to the [code of conduct](./CODE_OF_CONDUCT.md).
-
-**Forks:** Allows users to clone the TOPS repository and make changes before creating a Pull Request.
-
-**Discussions:** Provides an effective medium to interact with TOPS and the Open Science community.
-
-For a more detailed guide on how to use these mechanisms, check out our contribution guidelines [here](/CONTRIBUTING.md). 
-
-## Have a Question for TOPS?
-
-### Frequently Asked Questions
-
-There is a possibility that your question has been asked before. We have collected frequently asked questions [here](./tops_faq.md). 
-
-### Start a Discussion
-
-Start a question discussion on GitHub to ask TOPS or the community a question.
-
-### Contact Us
-Reach out to TOPS directly [using our contact form](https://docs.google.com/forms/d/1XcjQU9vYyXAMmJFdB6H021PFypGYWbNKvNR_em5q2UY/edit)!
-
-**We hope you will join us and champion open science!**
-
-## Announcements!
-
-- Open Science 101 has been [released](https://github.com/nasa/Transform-to-Open-Science/releases/tag/v1.0.0) and is now citable!
-- The development version of Open Science 101 has been relocated [here](https://github.com/nasa/Transform-to-Open-Science/tree/open-science-101).  Read more about contributing [here](./CONTRIBUTING.md#contributing-to-open-science-101-on-github).
-- The TOPS resource on [Open Science funding opportunities](./docs/Area4_Moving_To_Openness/funding_opportunities.md) has been updated to highlight current NASA solicitations for open science.
-- Materials from the CERN-NASA 2023 Open Science Summit “[Accelerating the Adoption of Open Science](https://home.cern/news/news/knowledge-sharing/cern-and-nasa-join-forces-commit-research-future-open-and-accessible)” are openly available and may be of interest to those who wish to learn about developing policies and strategic plans for open science. View the presentation [recordings](https://cds.cern.ch/search?f=490__a&p=Accelerating%20the%20Adoption%20of%20Open%20Science) and [slides](https://zenodo.org/communities/cern-nasa-open-science-summit-july-2023/?page=1&size=20).
-- NASA is pleased to announce [award selections](https://www.nasa.gov/centers/marshall/news/releases/2023/nasa-boosts-open-science-through-innovative-training) for the Transform to Open Science Training [TOPST](https://nspires.nasaprs.com/external/solicitations/summary.do?solId=%7bAB776446-03A8-4C24-845D-2E5A2ADA2D5A%7d&path=&method=init) proposals. These exciting projects showcase open science in action and will advance adoption of open science by helping participants earn their NASA Open Science Certification through summer schools and virtual cohorts. [Enroll here](https://nasa.github.io/Transform-to-Open-Science/signup/) to learn more about opportunities to participate and earn your NASA open science certification!
-- NSF releases a Year of Open Science [Toolbox](https://nsf.widencollective.com/portals/sd9nlyvd/YearofOpenScienceToolkit) including powerpoint templates, letterhead, poster, and virtual backgrounds!
-- NASA Awards Millions to Historically Black Colleges, Universities Promoting Equality and Diversity in Scientific Research. [Read more](https://www.nasa.gov/press-release/nasa-awards-millions-to-historically-black-colleges-universities).
-- Biden-⁠Harris Administration Announces New Actions to Advance Open and Equitable Research [factsheet](https://www.whitehouse.gov/ostp/news-updates/2023/01/11/fact-sheet-biden-harris-administration-announces-new-actions-to-advance-open-and-equitable-research/)
-- Nature Article: [Why NASA and federal agencies are declaring this the Year of Open Science](https://www.nature.com/articles/d41586-023-00019-y) 
-- Federal [portal](https://open.science.gov/)
-- NASA's new Science Information Policy has been released! You can find resources, frequently asked questions and the full text of the policy at [science.nasa.gov](https://science.nasa.gov/researchers/science-data/science-information-policy). 
-  - At TOPS, we are especially excited about the [Open-Source Science Guidance for researchers funded by NASA's Science Mission Directorate](https://science.nasa.gov/oss-guidance). This guidance is being [developed openly on GitHub](https://github.com/nasa/smd-open-science-guidelines), and contributions are welcome. 
-  - [A presentation summarizing the policy for scientists](https://doi.org/10.5281/zenodo.8213393) created by M. J. Styczinski of JPL is available too!
-- Apply to become a local lead for the 2023 Space Apps challenge! Learn more [here](https://www.spaceappschallenge.org/).
-- SMD's Data Portal has been [launched](https://science.data.nasa.gov/)! Explore NASA's science data as you explore open science. 
-- Proposal [guidance](./docs/Area4_Moving_To_Openness/TOPST/proposal_resources.md)
-<!--
-- Open Science [stories](https://science.nasa.gov/open-science/transform-to-open-science/stories)
--->
 
 ## Contributors ✨
 
@@ -262,4 +151,4 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome! Don't see your name? Let us know by [emailing us](mailto:hq-openscience@mail.nasa.gov).
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome! 
