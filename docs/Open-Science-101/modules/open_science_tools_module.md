@@ -22,37 +22,20 @@ In this lesson, you explore the different types of repositories used to store an
 
 ### 1.1 What is a Repository?
 
-A repository is a digital storage system that:
-- **Stores** research data, code, or documentation
-- **Provides access** to your research outputs
-- **Ensures preservation** for long-term access
-- **Enables discovery** through search and indexing
-- **Manages versions** of files and records
+A repository is a digital storage system that keeps research data, code, and documentation organized and accessible. It provides a stable home for your outputs, makes them discoverable through search and indexing, and preserves them for long-term use so others can return to the work years later. Repositories also support versioning, which means changes can be tracked over time and specific releases can be referenced when results are cited or reused.
 
-**Core Functions:**
-1. **Storage:** Secure, reliable hosting
-2. **Access:** Public, restricted, or tiered access
-3. **Preservation:** Long-term maintenance and format migration
-4. **Metadata:** Description enabling discovery
-5. **Persistence:** Assigned identifiers (DOIs) for permanent access
+At its core, a repository delivers five essential services. It offers **storage** through secure and reliable hosting, **access** through public or restricted permissions, and **preservation** by maintaining files and migrating formats as needed. It also supplies **metadata** that describes what the content is and how to use it, and **persistence** by assigning identifiers such as DOIs so the work can always be found and cited.
 
 ### 1.2 Repository vs. Archive: Key Differences
 
-**Development Repositories**
-- **Purpose:** Active collaborative development
-- **Version Control:** Full Git/Mercurial/SVN integration
-- **History:** Complete change tracking
-- **Branching:** Experimental and parallel work
-- **Examples:** GitHub, GitLab, Bitbucket
-- **Use When:** Actively writing code, multiple developers, rapid iterations
-
-**Archives (Data Preservation)**
-- **Purpose:** Long-term preservation of final versions
-- **Version Control:** Minimal (snapshot preservation)
-- **History:** Limited to deposited versions
-- **Immutability:** Final versions cannot be changed
-- **Examples:** Zenodo, Figshare, Dataverse
-- **Use When:** Publishing final datasets, archiving software releases, preservation required
+| Development Repositories | Archives (Data Preservation) |
+|---|---|
+| **Purpose:** Active collaborative development | **Purpose:** Long-term preservation of final versions |
+| **Version Control:** Full Git/Mercurial/SVN integration | **Version Control:** Minimal (snapshot preservation) |
+| **History:** Complete change tracking | **History:** Limited to deposited versions |
+| **Branching:** Experimental and parallel work | **Immutability:** Final versions cannot be changed |
+| **Examples:** GitHub, GitLab, Bitbucket | **Examples:** Zenodo, Figshare, Dataverse |
+| **Use When:** Actively writing code, multiple developers, rapid iterations | **Use When:** Publishing final datasets, archiving software releases, preservation required |
 
 **Best Practice:** Use both together
 ```
@@ -81,7 +64,7 @@ Active Development → GitHub/GitLab → Release → Zenodo/Archive
 - Beautiful web interface
 - Use for: Visual data, figures, supplementary materials
 
-**Open Science Framework (OSF)** (osf.io)
+**Open Science Framework (OSF)** ([https://osf.io/](https://osf.io/))
 - Project management integrated with storage
 - Version control built-in
 - Preregistration and reporting workflows
@@ -98,53 +81,42 @@ Active Development → GitHub/GitLab → Release → Zenodo/Archive
 
 ### 1.4 Discipline-Specific Repositories
 
+Discipline-specific repositories matter because they use field-appropriate metadata standards, align with community practices, and provide discovery tools tailored to how your field searches for data. They also prioritize long-term preservation and help ensure that data sharing aligns with funder expectations and disciplinary norms, which strengthens reuse and recognition.
+
 **Biological Sciences:**
-- **GenBank** - DNA/protein sequences (NCBI)
-- **Protein Data Bank** - 3D protein structures
-- **Dryad** - Data associated with publications
+- **GenBank** - DNA/protein sequences (NCBI) ([https://www.ncbi.nlm.nih.gov/genbank/](https://www.ncbi.nlm.nih.gov/genbank/))
+- **Protein Data Bank** - 3D protein structures ([https://www.rcsb.org/](https://www.rcsb.org/))
+- **Dryad** - Data associated with publications ([https://datadryad.org/](https://datadryad.org/))
 
 **Earth and Environmental Science:**
-- **NOAA** - Climate and oceanographic data
-- **USGS** - Geological data and maps
-- **GeoNetwork** - Geographic data discovery
+- **NOAA** - Climate and oceanographic data ([https://www.noaa.gov/](https://www.noaa.gov/))
+- **USGS** - Geological data and maps ([https://www.usgs.gov/](https://www.usgs.gov/))
+- **GeoNetwork** - Geographic data discovery ([https://geonetwork-opensource.org/](https://geonetwork-opensource.org/))
 
 **Physics and Astronomy:**
-- **arXiv** - Preprints and papers
-- **Zenodo** - CERN's repository (multidisciplinary)
+- **arXiv** - Preprints and papers ([https://arxiv.org/](https://arxiv.org/))
+- **Zenodo** - CERN's repository (multidisciplinary) ([https://zenodo.org/](https://zenodo.org/))
 
 **Social Sciences:**
-- **ICPSR** - Social science research data
-- **Harvard Dataverse** - General-purpose institutional
-
-**Importance of Discipline Repositories:**
-- Specialized metadata standards
-- Community-appropriate preservation
-- Field-specific discovery tools
-- Long-term stability
-- Funding recognition
+- **ICPSR** - Social science research data ([https://www.icpsr.umich.edu/](https://www.icpsr.umich.edu/))
+- **Harvard Dataverse** - General-purpose institutional ([https://dataverse.harvard.edu/](https://dataverse.harvard.edu/))
 
 ### 1.5 Software Repositories
 
-**Source Code Hosting:**
+Software repositories provide the infrastructure for developing, sharing, and sustaining research code. They make collaboration practical by tracking changes, enabling review, and preserving project history so others can verify, reuse, and build on your work. Platforms like GitHub and GitLab are central to this ecosystem because they pair Git version control with collaboration features (issues, pull/merge requests, CI/CD, documentation hosting) that help research teams work transparently and reproducibly.
 
-**GitHub** (github.com)
-- Most popular for research software
-- Built on Git version control
-- Public and private repositories
-- Collaborative features (pull requests, issues)
-- CI/CD integration
-- GitHub Pages for documentation
-- Free for public repositories
-- Use for: Active development, collaboration
-
-**GitLab** (gitlab.com)
-- Similar to GitHub with self-hosting options
-- Stronger privacy controls
-- Runner infrastructure included
-- Enterprise-grade features
-- Use for: Privacy-sensitive work, institutional deployment
+| Feature | GitHub | GitLab |
+|---|---|---|
+| **Primary strength** | Large open-source community and discovery | Integrated DevOps and strong self-hosting options |
+| **Hosting options** | Cloud-hosted (GitHub.com), enterprise options | Cloud-hosted (GitLab.com) and robust self-hosted | 
+| **Collaboration** | Pull requests, issues, discussions | Merge requests, issues, epics |
+| **CI/CD** | GitHub Actions (marketplace-driven) | Built-in CI/CD with runners |
+| **Privacy controls** | Private repos and org controls | Stronger enterprise privacy and on-prem controls |
+| **Best fit** | Open-source visibility and broad community | Institutions needing self-hosting or integrated pipelines |
 
 **Package Registries:**
+
+Package registries are centralized catalogs that host, index, and distribute reusable software packages. They make it easy for researchers to share code with consistent versioning, dependencies, and documentation, and they allow others to install and update packages reliably using standard tools (for example, `pip` for Python or `install.packages()` for R). In practice, registries act as the publication layer for research software, enabling discoverability, citation, and long-term reuse.
 
 **PyPI** (pypi.org) - Python
 - 500,000+ packages
@@ -178,13 +150,6 @@ Active Development → GitHub/GitLab → Release → Zenodo/Archive
 | Python package distribution | PyPI | Standard ecosystem |
 | Project coordination | Open Science Framework | Workflow integration |
 
-**Getting Started:**
-1. Check funder/publisher requirements (often mandate specific repositories)
-2. Identify discipline-specific options
-3. Consider your data sensitivity and access needs
-4. Plan workflow: development → release → archive
-5. Obtain persistent identifiers (DOI)
-
 ### Summary
 
 Repositories are foundational tools for open science:
@@ -194,6 +159,22 @@ Repositories are foundational tools for open science:
 - **Software registries** (PyPI, CRAN) distribute packages
 - Combine multiple repositories for maximum effectiveness
 
+#### Activities for Lesson 1
+
+Complete at least two of the following activities to apply repository concepts:
+
+**Activity 1.1: Repository Mapping**
+Choose one of your current or planned projects and map where each output should live (code, raw data, cleaned data, figures, manuscript, preregistration). Identify the specific repository or platform for each output and explain why it fits.
+
+**Activity 1.2: Development vs. Archive Decision**
+Select a research artifact (e.g., codebase, dataset). Decide what should stay in a development repository versus what should be archived, and draft a release plan that includes a version number and an archival repository with a DOI.
+
+**Activity 1.3: Data Repository Shortlist**
+Create a shortlist of three repositories for your field and compare them on scope, storage limits, metadata requirements, and long-term preservation. Write 150-200 words explaining which one you would choose and why.
+
+**Activity 1.4: Repository Metadata Draft**
+Draft a metadata record for a dataset you have or plan to produce. Include title, description, creators, keywords, license, and a short README outline.
+
 ## Lesson 2: Version Control and Collaboration
 
 ### Overview
@@ -201,30 +182,16 @@ In this lesson, you learn about version control systems that track changes to co
 
 ### 2.1 What is Version Control?
 
-**Definition:** Version control is the practice of systematically tracking and managing changes to files, including code, documentation, and research outputs.
+Version control is a systematic way to track and manage changes to files such as code, documentation, and research outputs. Rather than relying on ad hoc file naming, it preserves a detailed history of edits so you can see who changed what, when, and why. This history also makes it easy to revert to earlier versions if something breaks or a result needs to be reproduced exactly.
 
-**Core Functions:**
-1. **History tracking** - See who changed what and when
-2. **Change documentation** - Messages explaining why changes were made
-3. **Reversion** - Return to previous versions if needed
-4. **Parallel development** - Multiple people work simultaneously
-5. **Merge capability** - Combine changes from multiple developers
-
-**Why Researchers Need It:**
-- Reproducibility: Track exactly what code/analysis was used
-- Collaboration: Multiple authors contribute safely
-- Backup: Distributed copies prevent data loss
-- Accountability: Clear record of contributions
-- Experimentation: Safe to try new approaches
+Beyond tracking changes, version control enables multiple people to work in parallel and later merge their contributions into a coherent whole. That collaborative workflow is what makes modern research software development scalable and reliable. For researchers, version control supports reproducibility by pinning analyses to specific versions of code, improves accountability with clear attribution, and provides a robust backup strategy through distributed copies. It also makes experimentation safer, since you can try new ideas without risking the integrity of your main workflow.
 
 ### 2.2 Types of Version Control Systems
 
 **Centralized Version Control**
 
 **How it works:**
-- Single central server holds all version history
-- Developers check out files to work locally
-- Changes committed back to central server
+Centralized version control relies on a single central server that holds the full version history. Developers check out files to work locally and then commit their changes back to that central server.
 
 **Examples:** Subversion (SVN), Perforce, CVS
 
@@ -241,9 +208,7 @@ In this lesson, you learn about version control systems that track changes to co
 **Distributed Version Control**
 
 **How it works:**
-- Every developer has complete repository copy
-- History exists locally
-- Changes merged between repositories
+In a distributed model, every developer has a complete copy of the repository, including its history. Work can proceed locally, and changes are shared and merged between repositories when collaborators synchronize their work.
 
 **Examples:** Git, Mercurial (Hg), Bazaar
 
@@ -257,8 +222,6 @@ In this lesson, you learn about version control systems that track changes to co
 - More complex learning curve
 - Larger local storage (full history)
 - More merge conflict scenarios
-
-**Modern Reality:** Git has dominated; understanding distributed concepts is essential.
 
 ### 2.3 Git Fundamentals
 
@@ -298,6 +261,8 @@ dev:  ●---●---●         ●---●---●
 
 ### 2.4 Collaboration Platforms
 
+Collaboration platforms layer communication and project management tools on top of version control, making it easier for research teams to coordinate work, review changes, and document decisions. They provide shared issue trackers, code review workflows, automation, and documentation hosting so that contributions remain transparent and reproducible. Choosing the right platform depends on your team’s size, privacy requirements, and integration needs.
+
 **GitHub** (github.com) - Dominant platform
 - **Users:** 100+ million, especially in open source
 - **Free tier:** Public repositories unlimited, private with limits
@@ -335,6 +300,8 @@ dev:  ●---●---●         ●---●---●
 
 ### 2.5 Best Practices for Research
 
+Best practices help research teams keep repositories organized, reviews efficient, and results reproducible. They standardize how projects are structured, how changes are documented, and how collaboration happens so that new contributors can onboard quickly and analyses can be traced over time.
+
 **Repository Organization:**
 ```
 my-research-project/
@@ -371,15 +338,6 @@ my-research-project/
 7. Merge to main after approval
 8. Delete branch after merge
 
-**What to Version Control:**
-- ✓ Code and scripts
-- ✓ Documentation and manuscripts
-- ✓ Configuration files
-- ✓ Results and figures (if small)
-- ✗ Raw data (use data repositories instead)
-- ✗ Large files (use Git LFS or data repositories)
-- ✗ Sensitive information (use environment variables)
-
 ### Summary
 
 Version control is essential for open science:
@@ -389,6 +347,22 @@ Version control is essential for open science:
 - **Workflow discipline** prevents conflicts and maintains clarity
 - **Version control + repositories** = complete research preservation
 
+#### Activities for Lesson 2
+
+Complete at least two of the following activities to practice version control:
+
+**Activity 2.1: Initialize a Research Repository**
+Create a new Git repository for a small research project. Add a README, a license, and a basic folder structure (data, code, docs, results). Make at least three commits with clear messages.
+
+**Activity 2.2: Branch and Merge Practice**
+Create a feature branch, make a change to a file, and merge it back into `main`. Write a short reflection on what you learned about branching and merging.
+
+**Activity 2.3: .gitignore Audit**
+Create or update a `.gitignore` file for your project. Explain why each ignored category (raw data, secrets, build artifacts) should not be tracked in Git.
+
+**Activity 2.4: Collaboration Simulation**
+Open an issue describing a small improvement, then create a pull/merge request that resolves it. Write a brief summary as if you were reviewing your own change.
+
 ## Lesson 3: Persistent Identifiers and Citation
 
 ### Overview
@@ -396,13 +370,7 @@ In this lesson, you learn about persistent identifiers that ensure your research
 
 ### 3.1 What is a Persistent Identifier?
 
-**Definition:** A persistent identifier (PID) is a long-lasting reference to a digital resource that remains valid and points to the same content indefinitely, even if URLs or storage locations change.
-
-**Why Important:**
-- URLs break (average: 1.6 per day on Wikipedia)
-- Institutions reorganize and move files
-- Server migrations happen
-- Research outputs need permanent references
+A persistent identifier (PID) is a long-lasting reference to a digital resource that remains valid and points to the same content indefinitely, even if URLs or storage locations change. PIDs are important because URLs break (average: 1.6 per day on Wikipedia), institutions reorganize and move files, servers migrate, and research outputs need permanent references for long-term access and citation.
 
 **Persistent ID Properties:**
 1. **Permanence:** Reference valid indefinitely
@@ -463,37 +431,13 @@ Files moved → DOI resolver updated → Still works
 
 **Obtaining DOIs:**
 
-**For Published Articles:**
-- Publisher automatically issues
-- Available after publication
-- Usually free
+For published articles, the publisher typically issues the DOI automatically once the work is accepted and published, and this is usually free for authors. For research data, DOIs are assigned when you deposit the dataset in a DataCite member repository; platforms such as Zenodo, Figshare, and Dataverse issue DOIs automatically as part of their deposit or publication workflows. For software, DOIs are commonly minted through GitHub–Zenodo integration (which archives GitHub releases), or by uploading a release directly to Zenodo; package registries like PyPI and CRAN often complement DOI-based citation with structured metadata and versioning.
 
-**For Research Data:**
-- Deposit in DataCite member repository
-- Zenodo: Automatic DOI on upload
-- Figshare: Automatic DOI on publication
-- Dataverse: Automatic DOI
-- Free
-
-**For Software:**
-- GitHub → Zenodo integration (GitHub releases auto-archived)
-- Direct Zenodo upload
-- PyPI/CRAN packages
-
-**Metadata Requirements:**
-- Title
-- Creators/Authors
-- Publication date
-- Resource type (dataset, software, article)
-- Description (optional but recommended)
+Regardless of output type, repositories require basic metadata to generate a DOI and make the record discoverable. At minimum this includes the title, creators/authors, publication date, and resource type (e.g., dataset, software, article), with a short description recommended to provide context for reuse.
 
 ### 3.3 ORCID: Researcher Identifier
 
-**What is ORCID?**
-- Open Researcher and Contributor ID
-- Unique 16-digit identifier for researchers
-- Links your publications, datasets, contributions
-- International standard (ISO 27729)
+**What is ORCID?** ORCID (Open Researcher and Contributor ID) is a unique 16-digit identifier for researchers that links your publications, datasets, and contributions across platforms. It is an international standard (ISO 27729) used to unambiguously associate scholarly work with its creators.
 
 **ORCID Format:**
 ```
@@ -524,18 +468,14 @@ ORCID: 0000-0002-1825-0097
 - Automated data import from CrossRef/DataCite
 
 **Getting and Using ORCID:**
-1. Create account at orcid.org (free)
+1. Create account at [https://orcid.org/](https://orcid.org/) (free)
 2. Add biographical information
 3. Add publications and works (manual or auto-import)
 4. Set privacy settings (public/limited/private)
 5. Use ORCID in funding/publication submissions
 6. Example: "Josephine Doe (ORCID: 0000-0002-1825-0097)"
 
-**Citation Impact:**
-- ORCID profiles increase discoverability
-- Better tracking of research impact
-- Funder recognition of your contributions
-- Clear career record for job applications
+ORCID profiles increase discoverability, improve tracking of research impact, and help funders recognize your contributions across outputs. They also provide a clear, portable career record that supports job and grant applications.
 
 ### 3.4 Other Persistent Identifier Types
 
@@ -602,32 +542,26 @@ Smith, J. (ORCID: 0000-0002-1825-0097), Jones, B. & Brown, C.
 ### 3.6 Best Practices with Persistent Identifiers
 
 **For Research Data:**
-1. Use repository that issues DOIs (Zenodo, Figshare, Dryad)
-2. Complete metadata (title, creators, description)
-3. Use DataCite schema
-4. Include in data availability statement
-5. Cite in publications when used
+- Deposit in a DOI-issuing repository (e.g., Zenodo, Figshare, Dryad)
+- Provide complete metadata and use the DataCite schema
+- Include a data availability statement
+- Cite datasets in publications
 
 **For Software:**
-1. Create GitHub releases
-2. Connect to Zenodo for archival and DOI
-3. Each release gets unique DOI
-4. Version semantically (1.0.0 format)
-5. Cite software in publications (Software Citation Principles)
+- Create versioned releases and archive with Zenodo for DOIs
+- Use semantic versioning (e.g., 1.0.0)
+- Cite software per software citation principles
 
 **For Yourself:**
-1. Create ORCID profile
-2. Keep it up to date
-3. Set appropriate privacy levels
-4. Use in grant applications and submissions
-5. Link your research outputs
+- Create and maintain an ORCID profile
+- Set appropriate privacy levels
+- Link all research outputs and use ORCID in submissions
 
 **In Publications:**
-1. Include data availability statements with DOIs
-2. Link to code repositories and software
-3. List contributor ORCIDs
-4. Use persistent links (DOIs, not URLs)
-5. Make supplementary materials citable
+- Include data availability statements with DOIs
+- Link to code repositories and software
+- List contributor ORCIDs
+- Use persistent links and cite supplementary materials
 
 ### Summary
 
@@ -637,6 +571,22 @@ Persistent identifiers are essential research infrastructure:
 - **Proper use** enables discovery, citation tracking, and impact measurement
 - **Best practices** maximize discoverability and credit attribution
 
+#### Activities for Lesson 3
+
+Complete at least two of the following activities to practice using persistent identifiers:
+
+**Activity 3.1: ORCID Setup and Update**
+Create or update your ORCID profile. Add at least one publication, dataset, or software entry and set appropriate visibility permissions.
+
+**Activity 3.2: DOI Planning**
+Choose a research output and draft a plan to mint a DOI (which repository, what metadata you will provide, and how you will cite it).
+
+**Activity 3.3: Citation Practice**
+Write citations for one dataset, one software package, and one paper using DOI-based formats. Note any differences in formatting across resource types.
+
+**Activity 3.4: Identifier Inventory**
+List the identifiers used in your lab or project (DOIs, ORCIDs, grant numbers). Identify one gap and propose how to fill it.
+
 ## Lesson 4: Open Science Software Ecosystems
 
 ### Overview
@@ -644,7 +594,7 @@ In this lesson, you explore the broader ecosystem of tools used in open science 
 
 ### 4.1 Documentation and Manuscript Tools
 
-**Overleaf** (overleaf.com) - Collaborative LaTeX Writing
+**Overleaf** ([https://www.overleaf.com/](https://www.overleaf.com/)) - Collaborative LaTeX Writing
 - **Purpose:** Cloud-based LaTeX editor for manuscripts
 - **Features:**
   - Real-time collaboration (like Google Docs)
@@ -656,7 +606,7 @@ In this lesson, you explore the broader ecosystem of tools used in open science 
 - **Best for:** Collaborative manuscript writing, complex formatting
 - **Integration:** Works with Git (optional)
 
-**Google Docs** - Cloud Collaboration
+**Google Docs** ([https://docs.google.com/](https://docs.google.com/)) - Cloud Collaboration
 - **Purpose:** Simple collaborative writing
 - **Advantages:**
   - Extremely easy to use
@@ -667,20 +617,20 @@ In this lesson, you explore the broader ecosystem of tools used in open science 
 - **Limitations:** Not ideal for formatted manuscripts
 - **Best for:** Early drafts, quick collaboration, non-technical teams
 
-**Microsoft Word with OneDrive**
+**Microsoft Word** ([https://www.microsoft.com/microsoft-365/word](https://www.microsoft.com/microsoft-365/word)) with **OneDrive** ([https://onedrive.live.com/](https://onedrive.live.com/))
 - **Purpose:** Familiar alternative to Google Docs
 - **Features:** Co-authoring, comments, track changes
 - **Best for:** Teams already in Microsoft ecosystem
 
-**Markdown + GitHub**
+**Markdown + GitHub** ([https://github.com/](https://github.com/))
 - **Purpose:** Lightweight manuscript writing
 - **Advantages:** Version control, plain text, reviewable diffs
-- **Tools:** Pandoc, Jupyter Book, Quarto
+- **Tools:** [https://pandoc.org/](https://pandoc.org/), [https://jupyterbook.org/](https://jupyterbook.org/), [https://quarto.org/](https://quarto.org/)
 - **Best for:** Technical manuscripts, reproducible research
 
 ### 4.2 Computational Research Tools
 
-**Jupyter Notebooks** (jupyter.org)
+**Jupyter Notebooks** ([https://jupyter.org/](https://jupyter.org/))
 - **What:** Interactive documents mixing code, output, and narrative
 - **Supported languages:** Python, R, Julia, 100+ kernels
 - **Advantages:**
@@ -694,7 +644,7 @@ In this lesson, you explore the broader ecosystem of tools used in open science 
   - Publication of analyses
 - **Archiving:** Can be deposited in repositories with DOIs
 
-**Quarto** (quarto.org)
+**Quarto** ([https://quarto.org/](https://quarto.org/))
 - **What:** Scientific publishing system
 - **Capabilities:**
   - Mix code and prose (Python, R, Julia, Observable)
@@ -704,13 +654,13 @@ In this lesson, you explore the broader ecosystem of tools used in open science 
 - **Advantages:** More flexible than Jupyter
 - **Best for:** Complete research communication
 
-**R Markdown**
+**R Markdown** ([https://rmarkdown.rstudio.com/](https://rmarkdown.rstudio.com/))
 - **What:** R-specific document format
 - **Creates:** PDFs, HTML, Word documents
 - **Advantages:** Seamless R integration
 - **Best for:** R-focused research
 
-**Jupyter Book** (jupyterbook.org)
+**Jupyter Book** ([https://jupyterbook.org/](https://jupyterbook.org/))
 - **What:** Build publication-quality books from Jupyter Notebooks
 - **Features:**
   - Table of contents and navigation
@@ -721,7 +671,7 @@ In this lesson, you explore the broader ecosystem of tools used in open science 
 
 ### 4.3 Preprint Servers
 
-**arXiv** (arxiv.org) - Multidisciplinary Preprints
+**arXiv** ([https://arxiv.org/](https://arxiv.org/)) - Multidisciplinary Preprints
 - **Coverage:** Physics, astronomy, mathematics, computer science, quantitative biology
 - **Volume:** 500,000+ papers annually
 - **Timeline:** No peer review (moderation only)
@@ -729,35 +679,30 @@ In this lesson, you explore the broader ecosystem of tools used in open science 
 - **Discovery:** Heavily indexed by search engines
 - **Best for:** Physics-heavy research
 
-**bioRxiv** (biorxiv.org) - Biology Preprints
+**bioRxiv** ([https://www.biorxiv.org/](https://www.biorxiv.org/)) - Biology Preprints
 - **Coverage:** All biology fields
 - **Volume:** 100,000+ papers annually
 - **Timeline:** Typically published to journal within 6 months
 - **Features:** Integrated with journal submission workflows
 - **Best for:** Biological sciences
 
-**medRxiv** (medrxiv.org) - Medicine and Health
+**medRxiv** ([https://www.medrxiv.org/](https://www.medrxiv.org/)) - Medicine and Health
 - **Coverage:** Medicine, health sciences
 - **Rapid dissemination:** Important for urgent health findings
 - **COVID-19 rapid response:** Enabled pre-publication sharing
 - **Best for:** Medical research
 
-**PsyArXiv** (psyarxiv.org) - Psychology Preprints
+**PsyArXiv** ([https://psyarxiv.com/](https://psyarxiv.com/)) - Psychology Preprints
 - **Coverage:** Psychology and related fields
 - **Features:** Integrated with Open Science Framework
 - **Best for:** Psychological sciences
 
-**OSF Preprints** (osf.io/preprints) - Multidisciplinary
+**OSF Preprints** ([https://osf.io/preprints/](https://osf.io/preprints/)) - Multidisciplinary
 - **Coverage:** All disciplines
 - **Features:** Integrated with project management
 - **Best for:** Researchers already using OSF
 
-**Benefits of Preprints:**
-- Rapid dissemination (days vs. months)
-- Priority establishment (before formal publication)
-- Feedback collection (improves final version)
-- Global visibility
-- Often required by funders
+Preprints speed dissemination from months to days, establish priority before formal publication, and invite community feedback that can strengthen the final manuscript. They also increase global visibility by making results discoverable early and, in many fields, help meet funder expectations for timely sharing.
 
 ### 4.4 Project Management and Workflows
 
@@ -773,7 +718,7 @@ In this lesson, you explore the broader ecosystem of tools used in open science 
 - **Pricing:** Free
 - **Best for:** Coordinating all project aspects, preregistration
 
-**GitHub Projects**
+**GitHub Projects** ([https://github.com/features/issues](https://github.com/features/issues))
 - **What:** Project management integrated with repositories
 - **Features:**
   - Kanban boards (To Do, In Progress, Done)
@@ -786,9 +731,9 @@ In this lesson, you explore the broader ecosystem of tools used in open science 
 **Lab Notebooks**
 - **Traditional:** Physical notebooks (permanent record)
 - **Digital:**
-  - Notion, OneNote (note-taking)
-  - GitHub wikis (collaborative)
-  - OSF wiki (research-specific)
+  - Notion ([https://www.notion.so/](https://www.notion.so/)), OneNote ([https://www.microsoft.com/microsoft-365/onenote](https://www.microsoft.com/microsoft-365/onenote)) (note-taking)
+  - GitHub wikis ([https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)) (collaborative)
+  - OSF wiki ([https://help.osf.io/article/393-wiki](https://help.osf.io/article/393-wiki)) (research-specific)
 - **Requirements:**
   - Dated entries
   - Experiments recorded
@@ -798,7 +743,7 @@ In this lesson, you explore the broader ecosystem of tools used in open science 
 
 ### 4.5 Data Management Planning
 
-**DMPTool** (dmptool.org)
+**DMPTool** ([https://dmptool.org/](https://dmptool.org/))
 - **What:** Data management plan (DMP) writing assistant
 - **Features:**
   - Templates for major funders (NSF, NIH, EU)
@@ -808,7 +753,7 @@ In this lesson, you explore the broader ecosystem of tools used in open science 
 - **Pricing:** Free
 - **Best for:** Grant proposals requiring DMPs
 
-**Data Stewardship Wizard** (dsw.fairdata.eu)
+**Data Stewardship Wizard** ([https://dsw.fairdata.eu/](https://dsw.fairdata.eu/))
 - **What:** European alternative to DMPTool
 - **Features:**
   - Comprehensive question sets
@@ -824,16 +769,11 @@ In this lesson, you explore the broader ecosystem of tools used in open science 
 - **NIH DMSP:** New requirement (2023+)
 - **Most foundations:** Increasingly required
 
-**Key DMP Sections:**
-1. Data types and collection
-2. Data storage and backup
-3. Data quality and documentation
-4. Access and sharing plans
-5. Archival and preservation strategy
-6. Roles and responsibilities
-7. Budget and resources
+A strong data management plan outlines the data types and collection methods, storage and backup strategies, and documentation standards for data quality. It also specifies access and sharing plans, long-term archival and preservation approaches, roles and responsibilities across the team, and the budget or resources required to carry out the plan.
 
 ### 4.6 Team Communication
+
+Effective team communication combines real-time chat for quick coordination, asynchronous channels for broader participation, and searchable archives that preserve decisions over time. Choosing tools that match team size, privacy needs, and institutional norms helps reduce miscommunication and keeps research work transparent and reproducible.
 
 **Slack** - Team Messaging
 - **Features:** Real-time chat, channels, integrations
@@ -860,6 +800,22 @@ Comprehensive tool ecosystem supports open science:
 - **Planning tools** help meet funder requirements
 - **Communication tools** support team collaboration
 
+#### Activities for Lesson 4
+
+Complete at least two of the following activities to explore the open science software ecosystem:
+
+**Activity 4.1: Toolchain Blueprint**
+Sketch a toolchain for a real project, from planning to publication. Include at least one tool for documentation, computation, preprints, project management, and data management planning.
+
+**Activity 4.2: Documentation Tool Trial**
+Choose one documentation tool (Overleaf, Quarto, Jupyter Book, or Markdown + Git). Create a short sample document with a figure and a citation.
+
+**Activity 4.3: Preprint Decision Memo**
+Write a 200-300 word memo on whether you would post a preprint for a current project, including benefits, risks, and timing.
+
+**Activity 4.4: DMP Mini-Plan**
+Draft a one-page data management mini-plan using DMPTool or a similar template, focusing on storage, documentation, sharing, and preservation.
+
 ## Lesson 5: Building Your Open Science Toolkit
 
 ### Overview
@@ -867,71 +823,50 @@ In this final lesson, you integrate the tools learned throughout this module int
 
 ### 5.1 Assessing Your Tool Needs
 
-**Research Stage Analysis:**
+***Research Stage Analysis:**
 
-**Planning Phase:**
-- **Tools:** DMPTool, preregistration (OSF)
-- **Purpose:** Plan data management, register hypotheses
-- **Output:** DMP document, registration URL
-
-**Active Research Phase:**
-- **Tools:** Lab notebooks (digital or Notion), GitHub, OSF
-- **Purpose:** Document experiments, version code, track progress
-- **Output:** Documented notebook, version-controlled code
-
-**Analysis Phase:**
-- **Tools:** Jupyter notebooks/Quarto, GitHub, version control
-- **Purpose:** Reproducible analyses, documented workflows
-- **Output:** Executable code documents with results
-
-**Publication Phase:**
-- **Tools:** Preprint server, Overleaf/Google Docs, GitHub
-- **Purpose:** Rapid dissemination, collaborative writing
-- **Output:** Preprint with DOI, peer review feedback
-
-**Archival Phase:**
-- **Tools:** Zenodo, Figshare, data repositories, GitHub releases
-- **Purpose:** Long-term preservation, discovery, citation
-- **Output:** Datasets and code with DOIs, permanent URLs
+![Research Stage Analysis: Tools and Workflow](./images/research_stage_analysis.png)
 
 ### 5.2 Discipline-Specific Tool Recommendations
 
+Research communities have evolved distinct practices and standards shaped by disciplinary norms, funding requirements, publication cultures, and data types. While core open science principles apply across fields, the specific tools you choose should reflect your discipline's expectations and your research workflow. This section outlines recommended toolchains for major disciplinary areas. Use these as starting points and adapt them based on your institution's requirements, your collaborators' expertise, and your specific research needs. Many tools work across disciplines, but disciplinary preferences and integrations can significantly improve adoption and sustainability.
+
 **Computational Sciences** (Computer Science, Statistics, Physics)
-- **Code:** GitHub (essential)
-- **Notebooks:** Jupyter or Quarto
-- **Manuscripts:** Overleaf or Markdown + Pandoc
-- **Preprints:** arXiv
-- **Archival:** Zenodo
-- **Data:** Zenodo or figshare
-- **Project mgmt:** GitHub Projects or OSF
+- **Code:** **GitHub** ([https://github.com/](https://github.com/)) (essential)
+- **Notebooks:** **Jupyter** ([https://jupyter.org/](https://jupyter.org/)) or **Quarto** ([https://quarto.org/](https://quarto.org/))
+- **Manuscripts:** **Overleaf** ([https://www.overleaf.com/](https://www.overleaf.com/)) or Markdown + **Pandoc** ([https://pandoc.org/](https://pandoc.org/))
+- **Preprints:** **arXiv** ([https://arxiv.org/](https://arxiv.org/))
+- **Archival:** **Zenodo** ([https://zenodo.org/](https://zenodo.org/))
+- **Data:** **Zenodo** ([https://zenodo.org/](https://zenodo.org/)) or **figshare** ([https://figshare.com/](https://figshare.com/))
+- **Project mgmt:** **GitHub Projects** ([https://github.com/features/issues](https://github.com/features/issues)) or **OSF** ([https://osf.io/](https://osf.io/))
 
 **Biological Sciences** (Biology, Medicine, Life Sciences)
-- **Code:** GitHub
-- **Manuscripts:** Overleaf or Word
-- **Preprints:** bioRxiv or medRxiv
-- **Data:** Zenodo, Figshare, Dryad, or domain-specific repositories
-- **Samples/sequences:** GenBank, PDB
-- **Project mgmt:** OSF (for workflows), GitHub
+- **Code:** **GitHub** ([https://github.com/](https://github.com/))
+- **Manuscripts:** **Overleaf** ([https://www.overleaf.com/](https://www.overleaf.com/)) or **Microsoft Word** ([https://www.microsoft.com/microsoft-365/word](https://www.microsoft.com/microsoft-365/word))
+- **Preprints:** **bioRxiv** ([https://www.biorxiv.org/](https://www.biorxiv.org/)) or **medRxiv** ([https://www.medrxiv.org/](https://www.medrxiv.org/))
+- **Data:** **Zenodo** ([https://zenodo.org/](https://zenodo.org/)), **Figshare** ([https://figshare.com/](https://figshare.com/)), **Dryad** ([https://datadryad.org/](https://datadryad.org/)), or domain-specific repositories
+- **Samples/sequences:** **GenBank** ([https://www.ncbi.nlm.nih.gov/genbank/](https://www.ncbi.nlm.nih.gov/genbank/)), **PDB** ([https://www.rcsb.org/](https://www.rcsb.org/))
+- **Project mgmt:** **OSF** ([https://osf.io/](https://osf.io/)) (for workflows), **GitHub** ([https://github.com/](https://github.com/))
 
 **Social Sciences** (Psychology, Economics, Sociology)
-- **Code:** GitHub or OSF repository
-- **Preregistration:** OSF (strongly recommended)
-- **Data:** OSF, Zenodo, Figshare (sensitivity)
-- **Manuscripts:** Google Docs or Overleaf
-- **Project mgmt:** Open Science Framework
+- **Code:** **GitHub** ([https://github.com/](https://github.com/)) or **OSF** ([https://osf.io/](https://osf.io/)) repository
+- **Preregistration:** **OSF** ([https://osf.io/](https://osf.io/)) (strongly recommended)
+- **Data:** **OSF** ([https://osf.io/](https://osf.io/)), **Zenodo** ([https://zenodo.org/](https://zenodo.org/)), **Figshare** ([https://figshare.com/](https://figshare.com/)) (sensitivity)
+- **Manuscripts:** **Google Docs** ([https://docs.google.com/](https://docs.google.com/)) or **Overleaf** ([https://www.overleaf.com/](https://www.overleaf.com/))
+- **Project mgmt:** **Open Science Framework** ([https://osf.io/](https://osf.io/))
 
 **Environmental Sciences** (Ecology, Climate, Geology)
-- **Data:** Discipline-specific (NOAA, USGS) or Zenodo
-- **Code:** GitHub
-- **Notebooks:** Jupyter for analysis documentation
-- **Preprints:** EarthArXiv
+- **Data:** Discipline-specific (**NOAA** ([https://www.noaa.gov/](https://www.noaa.gov/)), **USGS** ([https://www.usgs.gov/](https://www.usgs.gov/))) or **Zenodo** ([https://zenodo.org/](https://zenodo.org/))
+- **Code:** **GitHub** ([https://github.com/](https://github.com/))
+- **Notebooks:** **Jupyter** ([https://jupyter.org/](https://jupyter.org/)) for analysis documentation
+- **Preprints:** **EarthArXiv** ([https://eartharxiv.org/](https://eartharxiv.org/))
 - **Data access:** Domain repositories essential
 
 **Humanities** (History, Literature, Languages)
 - **Repositories:** Institutional repositories, digital humanities platforms
-- **Manuscripts:** Google Docs, Markdown
-- **Data:** Zenodo for primary sources
-- **Version control:** Git for collaborative projects
+- **Manuscripts:** **Google Docs** ([https://docs.google.com/](https://docs.google.com/)), **Markdown** + **GitHub** ([https://github.com/](https://github.com/))
+- **Data:** **Zenodo** ([https://zenodo.org/](https://zenodo.org/)) for primary sources
+- **Version control:** **Git** + **GitHub** ([https://github.com/](https://github.com/)) for collaborative projects
 - **Preprints:** limited uptake (varies by discipline)
 
 ### 5.3 Building Your Toolkit: Step by Step
@@ -1041,58 +976,66 @@ Collaboration:    GitHub issues, Slack
 
 ### 5.5 Open Science Tool Communities
 
-**Software Carpentry / The Carpentries**
+Learning open science tools is easier and more sustainable within communities of practice. These groups offer workshops, documentation, peer support, and shared resources that accelerate skill development and help you troubleshoot challenges. Communities also keep you informed about tool updates, emerging best practices, and new features. Whether you're just starting or deepening your expertise, connecting with others using the same tools transforms your experience from isolated learning to collaborative growth. Below are major communities organized by focus area, along with ways to get involved.
+
+**Software Carpentry / The Carpentries** ([https://carpentries.org/](https://carpentries.org/))
 - **Focus:** Teaching open science skills
 - **Specialties:** Git, data management, research software
 - **Format:** Free 2-day workshops
-- **Website:** carpentries.org
+- **Website:** [https://carpentries.org/](https://carpentries.org/)
 - **How to join:** Register for local workshop or teach
 
-**rOpenSci / PyOpenSci**
+**rOpenSci** ([https://ropensci.org/](https://ropensci.org/)) / **PyOpenSci** ([https://www.pyopensci.org/](https://www.pyopensci.org/))
 - **Focus:** Open source tools for research
 - **Specialties:** R/Python packages, code review
 - **Activities:** Collaborative development, peer review
-- **Websites:** ropensci.org, pyopensci.org
+- **Websites:** [https://ropensci.org/](https://ropensci.org/), [https://www.pyopensci.org/](https://www.pyopensci.org/)
 
 **Research Software Engineering (RSE) Communities**
-- **US-RSE:** usrse.org
-- **International-RSE:** international-rse.org
+- **US-RSE:** [https://us-rse.org/](https://us-rse.org/)
+- **International-RSE:** [https://researchsoftware.org/](https://researchsoftware.org/)
 - **Focus:** Professional development for research software
 
 **Repository-Specific Communities**
-- **Zenodo:** Zenodo users community
-- **GitHub:** GitHub discussions, GitHub Community Forum
-- **OSF:** Open Science Framework community
+- **Zenodo:** [https://zenodo.org/communities/](https://zenodo.org/communities/) (Zenodo users community)
+- **GitHub:** [https://github.community/](https://github.community/) (GitHub Community Forum)
+- **OSF:** [https://osf.io/support/](https://osf.io/support/) (Open Science Framework community)
 
 **Tool-Specific Resources**
-- **Git:** Pro Git book (free), Atlassian tutorials
-- **Jupyter:** Jupyter community, JupyterHub documentation
-- **Quarto:** Quarto documentation and forum
+- **Git:** [https://git-scm.com/book/en/v2](https://git-scm.com/book/en/v2) (Pro Git book, free), [https://www.atlassian.com/git/tutorials](https://www.atlassian.com/git/tutorials) (Atlassian tutorials)
+- **Jupyter:** [https://jupyter.org/community](https://jupyter.org/community) (Jupyter community), [https://jupyterhub.readthedocs.io/](https://jupyterhub.readthedocs.io/) (JupyterHub documentation)
+- **Quarto:** [https://quarto.org/docs/resources/](https://quarto.org/docs/resources/) (Quarto documentation and forum)
 
 ### 5.6 Troubleshooting Common Tool Issues
 
-**Problem: "I'm using too many tools"**
-- Solution: Consolidate where possible (e.g., GitHub for both code and project management)
-- Reality: Most researchers use 3-5 core tools
-- Approach: Start minimal, add tools as needed
+> **Problem: "I'm using too many tools"**
+> 
+> - Solution: Consolidate where possible (e.g., GitHub for both code and project management)
+> - Reality: Most researchers use 3-5 core tools
+> - Approach: Start minimal, add tools as needed
 
-**Problem: "My institution doesn't support these tools"**
-- Solution: Use cloud-based alternatives (GitHub, Zenodo, Google Docs)
-- Advocate: Request institutional support or training
-- Bridge: Use free options while advocating
+> **Problem: "My institution doesn't support these tools"**
+> 
+> - Solution: Use cloud-based alternatives (GitHub, Zenodo, Google Docs)
+> - Advocate: Request institutional support or training
+> - Bridge: Use free options while advocating
 
-**Problem: "My collaborators don't know these tools"**
-- Solution: Provide training or pair programming
-- Resources: The Carpentries workshops
-- Phased approach: Learn together incrementally
+> **Problem: "My collaborators don't know these tools"**
+> 
+> - Solution: Provide training or pair programming
+> - Resources: The Carpentries workshops
+> - Phased approach: Learn together incrementally
 
-**Problem: "These tools feel overwhelming"**
-- Solution: Start with one tool well (usually Git)
-- Timeframe: 3-6 months to become comfortable
-- Support: Find local experts or mentors
-- Reality: Tools improve workflow significantly after learning curve
+> **Problem: "These tools feel overwhelming"**
+> 
+> - Solution: Start with one tool well (usually Git)
+> - Timeframe: 3-6 months to become comfortable
+> - Support: Find local experts or mentors
+> - Reality: Tools improve workflow significantly after learning curve
 
 ### 5.7 Your Open Science Toolkit Checklist
+
+Building an open science toolkit is a gradual process, not an all-at-once migration. The checklist below organizes tools by adoption stage and use case, helping you prioritize what to implement first and when to add additional capabilities. Start with the essential tools—these form the foundation and address the most common research needs. Then progress through highly recommended and project management tools as you grow comfortable with the basics. Remember that this is a personalized toolkit; you may not need every item, and you may add tools specific to your discipline or institution. Use this checklist as a planning guide rather than a rigid requirement, adapting it to your research context and goals.
 
 **Essential (Start Here):**
 - ☐ Version control (GitHub)
@@ -1166,5 +1109,21 @@ Building an open science toolkit involves:
 3. Apply it to your next project
 4. Join a relevant community
 5. Help others learn
+
+#### Activities for Lesson 5
+
+Complete at least one of the following activities to build your personal toolkit:
+
+**Activity 5.1: Toolkit Audit and Upgrade**
+List the tools you currently use for planning, coding, documentation, sharing, and preservation. Identify two gaps and create a 30-day plan to fill them.
+
+**Activity 5.2: Sustainable Workflow Plan**
+Create a workflow checklist you will reuse for every project (e.g., ORCID update, repository setup, README, data archiving, DOI minting). Share it with your team.
+
+**Activity 5.3: Community Engagement**
+Join one community (The Carpentries, rOpenSci, RSE, or a discipline-specific group). Attend one meeting or complete one training and summarize what you learned.
+
+**Activity 5.4: Publish a Minimal Example**
+Publish a small code or data artifact with documentation and a clear license. If possible, archive a release in Zenodo to obtain a DOI.
 
 **Welcome to the open science tools community. Let's make research better together.**

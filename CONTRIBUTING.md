@@ -18,23 +18,23 @@ Everyone reading this page is a community member, and we hope everyone will post
 All community members must abide by the code of conduct when engaging with TOPS, either online or in-person. 
 
 ## Code of Conduct
-The TOPS code of conduct can be found [here](./CODE_OF_CONDUCT.md). Responses to code of conduct violations on this GitHub are based on the level of impact, which is tied to where the violation took place–either a comment, discussion post, or in a pull request (PR) to the repository. Code of conduct violations for the GitHub will be addressed in the following manner: 
+The code of conduct can be found [here](./CODE_OF_CONDUCT.md). Responses to code of conduct violations on this GitHub are based on the level of impact, which is tied to where the violation took place–either a comment, discussion post, or in a pull request (PR) to the repository. Code of conduct violations for the GitHub will be addressed in the following manner: 
 * First code of conduct violation 
-    * **Participant:** Comment removed + contacted by TOPS moderator
-    * **Contributor**:  PR not accepted and removed from GitHub + contacted by TOPS moderator
+    * **Participant:** Comment removed + contacted by moderator
+    * **Contributor**:  PR not accepted and removed from GitHub + contacted by moderator
 * Second code of conduct violation
-    * **Participant:** Comment removed + contacted by TOPS moderator + ban for 90 days from space where offense occurred
-    * **Contributor:** PR not accepted and removed from GitHub + contacted by TOPS moderator + banned from PRs for 90 days
+    * **Participant:** Comment removed + contacted by moderator + ban for 90 days from space where offense occurred
+    * **Contributor:** PR not accepted and removed from GitHub + contacted by moderator + banned from PRs for 90 days
 * Third code of conduct violation
-    * **Participant**: Comment removed + contacted by TOPS moderator + permanent ban from all TOPS spaces 
-    * **Contributor**: PR not accepted and removed from GitHub + contacted by TOPS moderator + permanent ban from GitHub and other TOPS digital communication
+    * **Participant**: Comment removed + contacted by  moderator + permanent ban from all spaces 
+    * **Contributor**: PR not accepted and removed from GitHub + contacted by moderator + permanent ban from GitHub and other TOPS digital communication
 * Commit of Malicious Code
-    * Immediate and permanent ban from all TOPS spaces
+    * Immediate and permanent ban from all spaces
 * Threat of violence against an individual or group
-    * Immediate and permanent ban from all TOPS spaces
+    * Immediate and permanent ban from all spaces
 
-## Ways to Contribute to the TOPS GitHub
-There are three, major ways to contribute to the TOPS GitHub. 
+## Ways to Contribute to the GitHub
+There are three, major ways to contribute to the  GitHub. 
 - **Ask a question, provide an answer, share your thoughts and contribute to brainstorming through [Discussions](https://github.com/nasa/Transform-to-Open-Science/discussions).** The GitHub discussion area is intended for general Q&A, asking for community stories and experiences, and beginning conversations on new or existing open science topics. 
   - To learn more about GitHub Discussions check out their [documentation](https://docs.github.com/en/discussions/collaborating-with-your-community-using-discussions/about-discussions) 
 - **Suggest a change, addition, or deletion to what is already on the GitHub using [Issues](https://github.com/VERSO-UVM/Transform-to-Open-Science/issues).** Issues can be about any TOPS plans, timelines, and content. 
