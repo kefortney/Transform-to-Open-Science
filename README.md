@@ -2,7 +2,7 @@
 
 ## About This Project
 
-**This repository is a continuation and expansion of NASA's Transform to Open Science (TOPS) initiative.** The original NASA TOPS repository and Open Science 101 curriculum were archived in January 2025 and made available under an open source license. This project preserves and builds upon that foundation by:
+**This repository is a continuation and expansion of[NASA's Transform to Open Science (TOPS)](https://science.nasa.gov/open-science/training/) initiative.** The original NASA TOPS repository and Open Science 101 curriculum were archived in January 2025 and made available under an open source license. This project preserves and builds upon that foundation by:
 
 - Maintaining and enhancing the Open Science 101 curriculum
 - Expanding the original NASA TOPS materials with new content and resources

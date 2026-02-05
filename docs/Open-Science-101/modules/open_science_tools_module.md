@@ -262,84 +262,73 @@ dev:  ●---●---●         ●---●---●
 5. Merge to main branch
 6. Main branch always has working code
 
-### 2.4 Collaboration Platforms
+### 2.4 Collaborative Workflows on GitHub
 
-Collaboration platforms layer communication and project management tools on top of version control, making it easier for research teams to coordinate work, review changes, and document decisions. They provide shared issue trackers, code review workflows, automation, and documentation hosting so that contributions remain transparent and reproducible. Choosing the right platform depends on your team’s size, privacy requirements, and integration needs.
+**Pull Request Workflow (code review):**
 
-**GitHub** (github.com) - Dominant platform
-- **Users:** 100+ million, especially in open source
-- **Free tier:** Public repositories unlimited, private with limits
-- **Features:**
-  - Pull requests (code review)
-  - Issues (discussion and bug tracking)
-  - GitHub Actions (automation/CI)
-  - GitHub Pages (documentation websites)
-  - Discussions (community support)
-- **Best for:** Open source, large teams, educational use
+1. Colleague creates branch: `git checkout -b new-feature`
+2. Makes changes and pushes: `git push origin new-feature`
+3. Opens Pull Request on GitHub (describes what changed and why)
+4. You review code: add comments, suggest changes
+5. Colleague updates based on feedback
+6. Once approved: merge to main
 
-**GitLab** (gitlab.com) - Full-featured alternative
-- **Users:** 30+ million, growing in enterprise
-- **Free tier:** Generous for public and private
-- **Features:**
-  - All GitHub features
-  - Self-hosting options available
-  - Built-in runners for CI/CD
-  - Stronger privacy controls
-- **Best for:** Privacy-sensitive work, institutional deployment
+**Why this matters for research:**
+- Code review catches errors before they reach your paper
+- Transparent record of who suggested what changes
+- Prevents accidentally breaking the analysis
 
-**Bitbucket** (bitbucket.org) - Atlassian ecosystem
-- **Users:** Popular in enterprise, less in research
-- **Features:**
-  - Supports Git and Mercurial
-  - Jira integration (project management)
-  - Atlassian ecosystem integration
-- **Best for:** Teams using Jira and other Atlassian tools
+**Issue Tracking (bug reports and features):**
 
-**Institutional Repositories:**
-- GitLab Community Edition (self-hosted)
-- Gitea (lightweight self-hosted)
-- Gitlab Cloud Dedicated
-- For privacy requirements and institutional control
+GitHub Issues organize project work:
+- "Bug: outlier detection failing on dataset X" → someone claims it, fixes it
+- "Feature: add visualization for results" → someone volunteers
+- Link issues to pull requests: "closes #15" in PR description
 
-### 2.5 Best Practices for Research
+**Continuous Integration (automated testing):**
 
-Best practices help research teams keep repositories organized, reviews efficient, and results reproducible. They standardize how projects are structured, how changes are documented, and how collaboration happens so that new contributors can onboard quickly and analyses can be traced over time.
-
-**Repository Organization:**
-```
-my-research-project/
-├── README.md              (project overview)
-├── .gitignore             (files to exclude)
-├── data/                  (raw data, not code)
-├── code/                  (analysis scripts)
-├── results/               (outputs, often generated)
-├── manuscripts/           (papers)
-├── docs/                  (documentation)
-└── .github/
-    └── workflows/         (automation)
+GitHub Actions run tests automatically:
+```yaml
+# When someone pushes code:
+1. GitHub runs your analysis script
+2. Checks for errors
+3. Reports pass/fail
+4. Prevents broken code from merging
 ```
 
-**Commit Message Best Practices:**
+**For institutions with privacy requirements:** GitLab (self-hosted on your servers) or Gitea provide the same workflows with full data control.
+
+### 2.5 Repository Best Practices
+
+**Organize your project:**
 ```
-✓ Good: "Add confidence intervals to figure 3 analysis"
-✗ Bad: "update"
-
-✓ Good: "Fix dimension mismatch in preprocessing (issue #42)"
-✗ Bad: "debug"
-
-✓ Good: "Replace old data cleaning code with new function"
-✗ Bad: "cleanup"
+my-research/
+├── README.md              # Project overview and how to run it
+├── .gitignore             # Files to exclude (e.g., large data, secrets)
+├── LICENSE                # MIT, GPL, Apache 2.0, etc.
+├── data/                  # Raw data (read-only, with checksums)
+├── code/analysis.py       # Scripts for analysis
+├── results/               # Generated outputs (outputs only, not committed)
+├── manuscript/            # Paper drafts and LaTeX
+├── notebooks/             # Jupyter notebooks for exploration
+└── .github/workflows/     # GitHub Actions for automated tests
 ```
 
-**Collaboration Workflow:**
-1. Create branch for new feature: `git checkout -b feature-name`
-2. Make small, focused commits
-3. Push branch: `git push origin feature-name`
-4. Create pull request with description
-5. Request review from collaborators
-6. Address feedback with additional commits
-7. Merge to main after approval
-8. Delete branch after merge
+**Write clear commits:**
+```bash
+✓ Good: git commit -m "Add outlier detection with z-score (resolves #42)"
+✗ Bad:  git commit -m "update"
+
+✓ Good: git commit -m "Fix data import error for missing values"
+✗ Bad:  git commit -m "debug"
+```
+
+**Collaborate safely:**
+1. Never commit passwords, API keys, or large data files
+2. Use `.gitignore` to exclude: `*.csv`, `*.h5`, `.env`
+3. Always create a branch for new features
+4. Require code review before merging
+5. Run tests automatically (GitHub Actions)
 
 ### Summary
 
@@ -368,189 +357,180 @@ Create or update a `.gitignore` file for your project. Explain why each ignored 
 Open an issue describing a small improvement, then create a pull/merge request that resolves it. Write a brief summary as if you were reviewing your own change.
 :::
 
-## Lesson 3: Persistent Identifiers and Citation
+## Lesson 3: Getting DOIs and ORCIDs
 
 ### Overview
-In this lesson, you learn about persistent identifiers that ensure your research outputs remain discoverable and citable over time. You explore different types of identifiers, understand how they work technically, and practice obtaining and using them in your research.
+In this lesson, you learn how to obtain and use persistent identifiers (DOIs and ORCIDs) that make your research permanently discoverable and citable. You'll get practical experience setting up your researcher profile and archiving research outputs with permanent identifiers.
 
-### 3.1 What is a Persistent Identifier?
+### 3.1 Getting Your DOI
 
-A persistent identifier (PID) is a long-lasting reference to a digital resource that remains valid and points to the same content indefinitely, even if URLs or storage locations change. PIDs are important because URLs break (average: 1.6 per day on Wikipedia), institutions reorganize and move files, servers migrate, and research outputs need permanent references for long-term access and citation.
+**When you need a DOI:**
+- Publishing a dataset on **Zenodo**, **Figshare**, or **Dryad**
+- Archiving code associated with a paper
+- Publishing software as a package
+- Sharing supplementary materials
 
-**Persistent ID Properties:**
-1. **Permanence:** Reference valid indefinitely
-2. **Uniqueness:** Identifies specific version/item
-3. **Resolvability:** Directs to current location
-4. **Universal:** Works across institutions/platforms
-5. **Citable:** Standard format for citations
+**Step-by-step for Zenodo (free, easy, recommended):**
 
-**Example Problem Solved by PIDs:**
-```
-Without PID:
-Link: http://myuniversity.edu/research/data/study123
-↓ (Months later)
-My files moved → Link broken → Research unreachable
+1. Go to [zenodo.org](https://zenodo.org)
+2. Sign in with GitHub account
+3. Click "Upload" → "New Upload"
+4. Add files (data, code, manuscript)
+5. Fill metadata:
+   - Title: "Ocean temperature dataset, 2020-2024"
+   - Authors: Your name + ORCID
+   - Description: 1-2 sentences
+   - License: CC-BY-4.0 (or your choice)
+6. Click "Publish" → **DOI automatically created**
+7. Copy DOI: `10.5281/zenodo.1234567`
 
-With PID (DOI):
-DOI: 10.5281/zenodo.1234567
-↓ (Months later)
-Files moved → DOI resolver updated → Still works
-```
+**Using your DOI:**
+- Cite in paper: Add to data availability statement
+- Share on GitHub: Add to README
+- Link in author profile: Add to CV/ORCID
+- Permanent reference: Share in presentations
 
-### 3.2 Digital Object Identifier (DOI)
+**Other repositories:**
+- **Figshare** (figshare.com): Easy interface, good for figures and supplementary materials
+- **Dryad** (datadryad.org): Discipline-specific data, curated submissions
+- **Dataverse** (dataverse.org): University-hosted option
 
-**What is a DOI?**
-- Most widely used PID in research
-- Standardized by ISO (International Organization for Standardization)
-- Managed globally by registration agencies
+### 3.2 Getting Your ORCID
 
-**Format:**
-```
-10.5281/zenodo.1234567
-┬─ ┬──────────────────
-│  └─ Suffix (unique identifier)
-└─── Prefix (registration agency)
-```
+**What ORCID does:**
+- Creates a unique researcher ID (0000-XXXX-XXXX-XXXX)
+- Links all your work across platforms (Zenodo, journals, funding agencies)
+- Separates you from every other researcher with your name
+- Used by NSF, NIH, EU, and major journals
 
-**Major DOI Registration Agencies:**
+**Step-by-step to set up ORCID:**
 
-**CrossRef** (crossref.org) - Academic publishing
-- Issues ~100 million DOIs annually
-- Articles, conference proceedings, books
-- Journal publishers primary users
-- Resolves through doi.org
+1. Go to [orcid.org](https://orcid.org)
+2. Click "Register" (free)
+3. Fill basic info:
+   - Name
+   - Email
+   - Password
+4. Verify email (check inbox)
+5. Add researcher information:
+   - Affiliations (current and past institutions)
+   - Funding: Search for grants you've received
+   - Works: Auto-import from CrossRef or manually add
+6. Set privacy: Usually "Public" (or "Limited" if preferred)
+7. Copy your ORCID: **0000-XXXX-XXXX-XXXX**
 
-**DataCite** (datacite.org) - Research data
-- Issues ~50 million DOIs annually
-- Datasets, software, other research outputs
-- Repositories: Zenodo, Figshare, Dryad
-- Rich metadata support
+**Where to use your ORCID:**
+- Funding applications: NSF, NIH, EU all require ORCID now
+- Journal submissions: Add to author metadata
+- Your GitHub profile: Add to README
+- Your email signature: `Jane Doe (ORCID: 0000-0002-1825-0097)`
+- Zenodo: Link when uploading data
+- LinkedIn/CV: Include in researcher profile
 
-**How DOI Resolution Works:**
-```
-1. You cite: doi.org/10.5281/zenodo.1234567
-2. User clicks/types the DOI
-3. doi.org proxy resolves to current URL
-4. User reaches content (wherever it is now)
-```
+**Linking repositories to ORCID:**
+- Zenodo auto-imports publications if you authorize it
+- Search for past publications to add
+- ORCID continuously updates as you publish
+- Automatic imports from CrossRef, DataCite
 
-**Obtaining DOIs:**
+### 3.3 Other Persistent Identifiers
 
-For published articles, the publisher typically issues the DOI automatically once the work is accepted and published, and this is usually free for authors. For research data, DOIs are assigned when you deposit the dataset in a DataCite member repository; platforms such as Zenodo, Figshare, and Dataverse issue DOIs automatically as part of their deposit or publication workflows. For software, DOIs are commonly minted through GitHub–Zenodo integration (which archives GitHub releases), or by uploading a release directly to Zenodo; package registries like PyPI and CRAN often complement DOI-based citation with structured metadata and versioning.
+**GitHub Release Versioning** (for code):
+- Create GitHub release with version tag: `v1.0.0`, `v2.1.0`
+- Connect to Zenodo (auto-creates DOI for each release)
+- Stable snapshot for papers: "This analysis used our code v2.1.0 (doi: 10.5281/zenodo.1234567)"
 
-Regardless of output type, repositories require basic metadata to generate a DOI and make the record discoverable. At minimum this includes the title, creators/authors, publication date, and resource type (e.g., dataset, software, article), with a short description recommended to provide context for reuse.
+**ISBN/ISSN** (for books/journals):
+- ISBN: Books (13-digit, looks like ISBN: 978-3-16-148410-0)
+- ISSN: Journal issues (8-digit, looks like ISSN: 0028-0836)
+- Use when citing published books or journals
 
-### 3.3 ORCID: Researcher Identifier
+**Repository-specific Identifiers:**
+- Figshare: Auto-generate URL for each item
+- Dryad: DataCite DOI (required for publications)
+- Dataverse: DOI assigned by Dataverse instance
 
-**What is ORCID?** ORCID (Open Researcher and Contributor ID) is a unique 16-digit identifier for researchers that links your publications, datasets, and contributions across platforms. It is an international standard (ISO 27729) used to unambiguously associate scholarly work with its creators.
+**When to use DOI vs. GitHub URL:**
+- Use GitHub URL: While code is under active development, linking to specific commits
+- Use DOI: When publishing paper, submitting to journal, or archiving final version
+- Both: Add DOI to GitHub README pointing to Zenodo
 
-**ORCID Format:**
-```
-ORCID: 0000-0002-1825-0097
-       │      │    │    │
-       └──────┴────┴────┴─ Unique number
-```
+### 3.4 Citing Your Work
 
-**Why Researchers Need ORCID:**
+**Copy-paste citations from repositories:**
 
-**Name Disambiguation:**
-- "John Smith" appears 10,000+ times
-- ORCID uniquely identifies you
-- Works across languages and transliteration
-
-**Comprehensive Profile:**
-- All your publications in one place
-- Datasets and software you've produced
-- Grants and funding
-- Affiliations and employment history
-- Works across all databases
-
-**Integration with Systems:**
-- Funding agencies (NSF, NIH, EU)
-- Repositories (Zenodo, Figshare)
-- Journals (Nature, Science, eLife)
-- University repositories
-- Automated data import from CrossRef/DataCite
-
-**Getting and Using ORCID:**
-1. Create account at [https://orcid.org/](https://orcid.org/) (free)
-2. Add biographical information
-3. Add publications and works (manual or auto-import)
-4. Set privacy settings (public/limited/private)
-5. Use ORCID in funding/publication submissions
-6. Example: "Josephine Doe (ORCID: 0000-0002-1825-0097)"
-
-ORCID profiles increase discoverability, improve tracking of research impact, and help funders recognize your contributions across outputs. They also provide a clear, portable career record that supports job and grant applications.
-
-### 3.4 Other Persistent Identifier Types
-
-**ARK (Archival Resource Key)**
-- Emphasis on long-term preservation
-- Especially for library and archive materials
-- Example: ark:/13030/c7h0rt9s
-- Used by: Internet Archive, libraries, archives
-- Best for: Cultural heritage, manuscripts
-
-**Handle System**
-- Protocol and network for PID resolution
-- Foundation that DOI system is built on
-- More complex than DOI for end-users
-- Used for: Large digital collections
-
-**URLs with Preservation:**
-- Institutional repositories often issue URLs
-- Less stable than formal PIDs
-- Solution: Use alongside DOI
-
-**ISBN/ISSN (Publications)**
-- ISBN: Books
-- ISSN: Serial publications (journals, magazines)
-- Limited to specific formats
-- Important for: Citation of monographs and journals
-
-### 3.5 Using Persistent Identifiers in Citations
-
-**Citation Format Examples:**
-
-**Dataset with DOI:**
+Zenodo, Figshare, and most journals provide citation formats. Example from Zenodo page:
 ```
 Author, A. (2024). Title of dataset (Version 1.0.0) 
 [Data set]. Zenodo. https://doi.org/10.5281/zenodo.1234567
 ```
 
-**Software with DOI:**
+**Adding to your paper:**
+
+In manuscript text:
 ```
-Author, A. (2024). Software name (v2.1.0). Zenodo. 
+"Data were processed using custom Python code (Doe, 2024, 
+https://doi.org/10.5281/zenodo.5678901) and statistical 
+analysis was performed using R version 4.2.1 (R Core Team, 2024)."
+```
+
+In references/bibliography:
+```
+Doe, J., Smith, A., & Jones, B. (2024). Analysis of ocean 
+temperature anomalies. Version 2.1.0. Zenodo. 
 https://doi.org/10.5281/zenodo.1234567
+
+R Core Team (2024). R: A language and environment for 
+statistical computing. Version 4.2.1. Vienna, Austria: 
+R Foundation for Statistical Computing.
 ```
 
-**Journal Article:**
+**BibTeX format** (for LaTeX users):
+- Zenodo: Copy BibTeX from right-side menu
+- Figshare: Export → BibTeX
+- GitHub: Use GitHub BibTeX export tool
+
+**Citation managers:**
+- **Zotero** (zotero.org): Free, open-source, captures DOI automatically
+- **Mendeley**: Free, syncs across devices
+- **Overleaf**: Built-in citation integration
+
+### 3.5 Best Practices for Identifiers
+
+**When publishing a paper:**
+1. Get DOI for all data/code before submission
+2. Add DOI to data availability statement
+3. Include ORCID in author metadata
+4. Reference versions in methods section
+
+**For long-term persistence:**
+- Use Zenodo over personal websites (persistence guaranteed 20+ years)
+- Use DataCite repositories (Zenodo, Figshare, Dryad) - more stable than GitHub
+- Archive each version: v1.0 (first publication), v1.1 (bug fix), v2.0 (major update)
+- Set metadata: license, creators, dates
+
+**Making your work discoverable:**
 ```
-Smith, J., Jones, B., & Brown, C. (2024). Title. 
-Journal Name, 15(3), 123-145. 
-https://doi.org/10.1234/journal.2024.001234
+On Zenodo/Figshare:
+✓ Detailed title: "Ocean surface temperature dataset, 2020-2024, 
+   North Atlantic"
+✓ Keywords: "temperature", "oceanography", "North Atlantic"
+✓ License: CC-BY-4.0 (allows reuse with attribution)
+
+✗ Vague: "Data"
+✗ Generic title: "Dataset"
 ```
 
-**Including Author ORCID:**
-```
-Smith, J. (ORCID: 0000-0002-1825-0097), Jones, B. & Brown, C. 
-(2024). Title. Journal Name, 15(3), 123-145.
-```
+**Connecting across platforms:**
+- Link DOI → GitHub repo in description
+- Link GitHub → Zenodo DOI in README
+- Add ORCID → Links everything together
+- Use consistent author names (first initial + last name)
 
-**Automatic Citation Generation:**
-- Most repositories provide citation in multiple formats
-- Zenodo: BibTeX, JSON, DataCite, Dublin Core, RIS
-- Figshare: Same formats
-- Google Scholar: Bibtex, Abstract
-- Copy-paste into bibliography
-
-### 3.6 Best Practices with Persistent Identifiers
-
-**For Research Data:**
-- Deposit in a DOI-issuing repository (e.g., Zenodo, Figshare, Dryad)
-- Provide complete metadata and use the DataCite schema
-- Include a data availability statement
-- Cite datasets in publications
+**Troubleshooting:**
+- "DOI not working?" → Check prefix/suffix format (10.XXXX/xxxxx)
+- "ORCID won't sync publications?" → Authorize CrossRef integration
+- "Can't find old paper?" → Search Google Scholar, add manually to ORCID
 
 **For Software:**
 - Create versioned releases and archive with Zenodo for DOIs
