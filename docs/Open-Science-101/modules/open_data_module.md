@@ -2807,7 +2807,7 @@ Remember: You don't need to do everything at once. Start small, learn as you go,
 ## Additional Resources
 
 In addition to the TOPS module training, the community resources below are excellent information sources about Open Data.
-- [NASA's Transform to Open Science](https://nasa.github.io/Transform-to-Open-Science-Book/) github landing page for TOPS
+- [NASA's Transform to Open Science](https://nasa.github.io/Open-Science-101-Book/) github landing page for TOPS
 - [NASA SMD's Open-Source Science Guidance](https://science.nasa.gov/science-red/s3fs-public/atoms/files/SMD%20Open-Source%20Science%20Guidance%20v1%2020221208.pdf)
 - [Repository of Federal Enterprise Data Resources](https://resources.data.gov/)
 - [The Open Data Handbook](http://opendatahandbook.org/guide/en/)

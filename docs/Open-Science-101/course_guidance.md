@@ -14,7 +14,7 @@ As a central goal of NASA’s TOPS and Open Source Science Initiative (OSSI) pro
 * **Make the course meaningful**
     * Clearly distinguish core concepts and tie examples back to reality  Motivate learners with tools and resources they can use in their own scientific studies. If possible, let them complete assignments using their own data-sets/examples. Design quizzes and other assessments to evaluate learning beyond “mere recall.” 
 * **Make the course engaging**
-    * Avoid lecture videos, keep animations short and interspersed with prompts for discussion, concepts maps, pictures/visual aids, study guides and self-assessment quizzes. Use interactive tools such as Jamboard or Canva to encourage MOOC cohorts to engage with each other as they complete assignments. Use the TOPS [GitHub community board](https://github.com/nasa/Transform-to-Open-Science), slack, [Zenodo community spaces](https://zenodo.org/communities/), or other online forums to encourage interaction within and between cohorts. If possible, consider holding “office hours” with live instructors using video conferencing. 
+    * Avoid lecture videos, keep animations short and interspersed with prompts for discussion, concepts maps, pictures/visual aids, study guides and self-assessment quizzes. Use interactive tools such as Jamboard or Canva to encourage MOOC cohorts to engage with each other as they complete assignments. Use the TOPS [GitHub community board](https://github.com/nasa/Open-Science-101), slack, [Zenodo community spaces](https://zenodo.org/communities/), or other online forums to encourage interaction within and between cohorts. If possible, consider holding “office hours” with live instructors using video conferencing. 
 * **Design the course to be measurable**
     * Take advantage of OpenEdEx analytics tools to verify learners are engaging with the material as expected. Understand how assignments will be graded and certification/badges awarded at the end.
 * **Design the course to be accessible**
@@ -47,7 +47,7 @@ For virtual but live sessions, using technology designed for use in large, onlin
 * Try to keep the “sage” bits short to keep interest. Have someone other than the main instructor monitor the chat in order to ask questions as they come up. Encourage participants to use the chat and raise hand feature. 
 * Use breakout rooms for discussion, and then have the smaller groups report out to the larger group. Have them fill a virtual white-board or a slide, to encourage deep thinking and provide a measurable mechanism for participation. 
 * Use interactive whiteboards or other learning tools in order to encourage participation _during_ the presentation, not just after. This can help keep some styles of learners engaged. 
-* Use the [TOPS Github community spaces](https://github.com/nasa/Transform-to-Open-Science/discussions) for continuing discussion past the event - this will allow for interaction among cohorts not just during a single session. 
+* Use the [TOPS Github community spaces](https://github.com/nasa/Open-Science-101/discussions) for continuing discussion past the event - this will allow for interaction among cohorts not just during a single session. 
 * If permitted, experiment with using other avenues for communication in addition/instead of just video calling e.g., Gather.Town
 
 Both the MOOC and the live courses ought to inspire learners to rigorize their own scientific research to include a wide breadth of open science principles. By creating courses that are likewise grounded in those principles, TOPS aims to inspire a true transformation to open science. 
@@ -58,7 +58,7 @@ The OS101 content was developed by the hard work of many people around the globe
 
 ## OS101 TOPS Curriculum Development 2022
 
-These Subject Matter Experts (SMEs) are a global representation of Open Science experts. They contributed significantly to the early content of OS101, and created the online book [Opensciency - A core open science curriculum by and for the research community](https://opensciency.github.io/sprint-content/), from which some of the OS101 content was adapted. Discover why these SMEs practice open science on the [Open Science Stories page](https://github.com/nasa/Transform-to-Open-Science/blob/main/docs/Area1_Engagement/Open-Science-Stories/SME_Why-I-Practice-Open-Science.md).
+These Subject Matter Experts (SMEs) are a global representation of Open Science experts. They contributed significantly to the early content of OS101, and created the online book [Opensciency - A core open science curriculum by and for the research community](https://opensciency.github.io/sprint-content/), from which some of the OS101 content was adapted. Discover why these SMEs practice open science on the [Open Science Stories page](https://github.com/nasa/Open-Science-101/blob/main/docs/Area1_Engagement/Open-Science-Stories/SME_Why-I-Practice-Open-Science.md).
 
 ### Ethos of Open Science
 Yo Yehudi (Lead), Tomoko Bell, Ismael Kherroubi Garcia, Stephen Klusza, Mariana Meireles, Shamsuddeen Muhammad, Amber Osman, Miguel Silan
@@ -503,7 +503,7 @@ Gentemann, Chelle, Ivey, Yvonne, Stall, Shelley, Erdmann, Christopher, & Lyon, L
 
 # Workshop Listing Requirements
 
-TOPS offers the option to take Open Science 101 modules at workshops in both virtual and in-person formats.  This allows participants the benefit of getting trained through an instructor while taking availability into account. To facilitate signups, we have built a system through which instructors can list workshop and training dates on our website. Likewise, we encourage all instructors to request that their workshop details be listed [on this page](https://nasa.github.io/Transform-to-Open-Science/take-os101/).
+TOPS offers the option to take Open Science 101 modules at workshops in both virtual and in-person formats.  This allows participants the benefit of getting trained through an instructor while taking availability into account. To facilitate signups, we have built a system through which instructors can list workshop and training dates on our website. Likewise, we encourage all instructors to request that their workshop details be listed [on this page](https://nasa.github.io/Open-Science-101/take-os101/).
 
 ## General Requirements
 
@@ -512,7 +512,7 @@ These requirements apply to both in person and virtual instructor-led workshops 
 * Your workshop must be free of charge.
 * You must have funding from NASA (for example: TOPST).
 * If you have not been provided with a registration page or registration information page, you are expected to create your own.
-* You must clear your listing with TOPS by emailing [hq-openscience@nasa.gov](mailto:hq-openscience@nasa.gov) even if you would prefer to list your workshop through the steps outlined in our [website documentation](https://github.com/nasa/Transform-to-Open-Science/tree/website#os101-workshops).
+* You must clear your listing with TOPS by emailing [hq-openscience@nasa.gov](mailto:hq-openscience@nasa.gov) even if you would prefer to list your workshop through the steps outlined in our [website documentation](https://github.com/nasa/Open-Science-101/tree/website#os101-workshops).
 
 ## Virtual Workshop Requirements
 
@@ -543,4 +543,4 @@ Below are the details that TOPS will ask for when you request your in-person wor
 
 Once your request is cleared with TOPS, you can allow us to take care of adding your workshop(s) to the website on your behalf. This will be communicated to our GitHub Lead.
 
-If you have experience with GitHub and creating Pull Requests, you can optionally choose to add the workshop(s) yourself, and the GitHub Lead will help you merge it in.  You can find instructions on how to do this [here](https://github.com/nasa/Transform-to-Open-Science/tree/website#os101-workshops).
+If you have experience with GitHub and creating Pull Requests, you can optionally choose to add the workshop(s) yourself, and the GitHub Lead will help you merge it in.  You can find instructions on how to do this [here](https://github.com/nasa/Open-Science-101/tree/website#os101-workshops).

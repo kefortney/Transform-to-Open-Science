@@ -1,5 +1,5 @@
 # Frequently Asked Questions
-This page is a living document of the most common questions posed to the TOPS team. It is our hope that these answers will benefit the wider community. Further details can be found in the transcripts of our community events on our <a href = "https://github.com/nasa/Transform-to-Open-Science/tree/main/docs/Area1_Engagement/Community_Forums">community forum</a> and <a href = "https://github.com/nasa/Transform-to-Open-Science/tree/main/docs/Area1_Engagement/Community_Panels">community panel</a> pages.
+This page is a living document of the most common questions posed to the TOPS team. It is our hope that these answers will benefit the wider community. Further details can be found in the transcripts of our community events on our <a href = "https://github.com/nasa/Open-Science-101/tree/main/docs/Area1_Engagement/Community_Forums">community forum</a> and <a href = "https://github.com/nasa/Open-Science-101/tree/main/docs/Area1_Engagement/Community_Panels">community panel</a> pages.
 
 <details> 
 <summary><span style="font-size:x-large;">NASA's Open Science 101 </span></summary>
