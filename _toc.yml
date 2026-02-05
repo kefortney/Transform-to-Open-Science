@@ -1,19 +1,16 @@
 format: jb-book
 root: README.md
 chapters:
-- file: docs/Open-Science-101/readme.md
-  title: Open Science 101
-  sections:
-  - file: docs/Open-Science-101/modules/open_science_ethos_module.md
-    title: Module 1 - Open Science Ethos
-  - file: docs/Open-Science-101/modules/open_data_module.md
-    title: Module 2 - Open Data
-  - file: docs/Open-Science-101/modules/open_software_module.md
-    title: Module 3 - Open Software
-  - file: docs/Open-Science-101/modules/open_results_module.md
-    title: Module 4 - Open Results
-  - file: docs/Open-Science-101/modules/open_science_tools_module.md
-    title: Module 5 - Open Science Tools
+- file: docs/Open-Science-101/modules/open_science_ethos_module.md
+  title: Module 1 - Open Science Ethos
+- file: docs/Open-Science-101/modules/open_data_module.md
+  title: Module 2 - Open Data
+- file: docs/Open-Science-101/modules/open_software_module.md
+  title: Module 3 - Open Software
+- file: docs/Open-Science-101/modules/open_results_module.md
+  title: Module 4 - Open Results
+- file: docs/Open-Science-101/modules/open_science_tools_module.md
+  title: Module 5 - Open Science Tools
 - file: docs/Open-Science-101/modules/course_guidance.md
   title: Course Guidance
 - file: CONTRIBUTING.md

@@ -37,10 +37,10 @@ The TOPS code of conduct can be found [here](./CODE_OF_CONDUCT.md). Responses to
 There are three, major ways to contribute to the TOPS GitHub. 
 - **Ask a question, provide an answer, share your thoughts and contribute to brainstorming through [Discussions](https://github.com/nasa/Transform-to-Open-Science/discussions).** The GitHub discussion area is intended for general Q&A, asking for community stories and experiences, and beginning conversations on new or existing open science topics. 
   - To learn more about GitHub Discussions check out their [documentation](https://docs.github.com/en/discussions/collaborating-with-your-community-using-discussions/about-discussions) 
-- **Suggest a change, addition, or deletion to what is already on the GitHub using [Issues](https://github.com/nasa/Transform-to-Open-Science/issues).** Issues can be about any TOPS plans, timelines, and content. 
-     - Before submitting a new [issue](https://github.com/nasa/Transform-to-Open-Science/issues), check to make sure [a similar issue isn't already open](https://github.com/nasa/Transform-to-Open-Science/issues?q=is%3Aopen+is%3Aissue). If one is, contribute to that issue thread with your feedback.
+- **Suggest a change, addition, or deletion to what is already on the GitHub using [Issues](https://github.com/VERSO-UVM/Transform-to-Open-Science/issues).** Issues can be about any TOPS plans, timelines, and content. 
+     - Before submitting a new [issue](https://github.com/VERSO-UVM/Transform-to-Open-Science/issues), check to make sure [a similar issue isn't already open](https://github.com/VERSO-UVM/Transform-to-Open-Science/issues?q=is%3Aopen+is%3Aissue). If one is, contribute to that issue thread with your feedback.
      - When submitting a bug report, please try to provide as much detail as possible, i.e. a screenshot or [gist](https://gist.github.com/) that demonstrates the problem, the technology you are using, and any relevant links. 
-     - Issues labeled :sparkles:[`help wanted`](https://github.com/nasa/Transform-to-Open-Science/labels/help%20wanted):sparkles: make it easy for you to find ways you can contribute today. 
+     - Issues labeled :sparkles:[`help wanted`](https://github.com/VERSO-UVM/Transform-to-Open-Science/labels/help%20wanted):sparkles: make it easy for you to find ways you can contribute today. 
 - **Become a contributor!** [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) the repository and [make commits](https://docs.github.com/en/get-started/quickstart/contributing-to-projects#making-and-pushing-changes) to add resources and additional materials. Here are some ways you can contribute:
      - by reporting bugs
      - by suggesting new features
@@ -48,13 +48,13 @@ There are three, major ways to contribute to the TOPS GitHub.
      - by writing or editing documentation
      - by writing specifications
      - by writing code and documentation (**no pull request is too small**: fix typos, add code comments, clean up inconsistent whitespace)
-     - by reviewing [pull requests](https://github.com/nasa/Transform-to-Open-Science/pulls).
-     - by closing [issues](https://github.com/nasa/Transform-to-Open-Science/issues)
+     - by reviewing [pull requests](https://github.com/VERSO-UVM/Transform-to-Open-Science/pulls).
+     - by closing [issues](https://github.com/VERSO-UVM/Transform-to-Open-Science/issues)
 
 In the spirit of open source software, everyone is encouraged to help improve this project!
                                                                
 ## New to GitHub? Start here!
-You can [sign up for GitHub here](https://github.com/)! TOPS has created a short video demonstrating how to make an easy pull request [here](https://youtu.be/PHoScPeMWHI).
+You can [sign up for GitHub here](https://github.com/)! 
 
 For a more in-depth start, we suggest *[Getting Started with Git and GitHub: The Complete Beginner’s Guide](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6)* and *[The Beginners Guide to Git and GitHub](https://www.freecodecamp.org/news/the-beginners-guide-to-git-github/)*. We've summarized some of the most important points below.
 
@@ -89,29 +89,6 @@ For accepting new contributions, TOPS uses the [forking workflow](https://guides
 
 All documentation should be written using Markdown and Github Markdown-supported HTML.  
 
-## Contributing to Open Science 101 on GitHub
-
-There are a few mechanisms that you can make use of to contribute to the [OS 101 curriculum on GitHub](https://github.com/nasa/Transform-to-Open-Science/tree/open-science-101).  Those methods specifically being Issues, Pull Requests, and Discussions. When suggesting a change to the curriculum, it is always recommended to link to a [specific part of the curriculum](https://github.com/nasa/Transform-to-Open-Science/tree/open-science-101) and add screenshots so we know exactly what needs to be looked at.
-
-The below terms describe how we suggest using each mechanism for contributing to OS 101.
-
-**Issues:** Submit encountered issues or suggest improvements.  Links and images (screenshots) are highly recommended so we can identify the location in the curriculum that is being referred to.
-
-[Submit an Issue](https://github.com/nasa/Transform-to-Open-Science/issues)
-
-**Pull Requests:** Much like issues, links and images can be provided for context, but a direct change to files on the GitHub repository is proposed to apply a fix. TOPS will merge the change, modify the change if corrections are needed, or reject the change if no action is necessary.  To create a pull request, you will make use of a fork as previously described.
-
-[Submit a Pull Request](https://github.com/nasa/Transform-to-Open-Science/pulls)
-
-**Discussions:** Used to communicate with the community or TOPS, whether that is related to theory, application of concepts, curriculum feedback, sharing experiences, and more.
-
-[Start a Discussion](https://github.com/nasa/Transform-to-Open-Science/discussions)
-
-### How TOPS Keeps OS101 Contributions Organized
-
-To organize and add context to Issues, Pull Requests, and Discussions, this GitHub repository makes use of Labels.  Categories are used specifically for Discussions to help further organize them.  
-
-The definitions below will allow you to identify useful details for a specific contribution or discussion:
 
 #### Labels (Issues, Pull Requests, and Discussions)
 
