@@ -84,112 +84,48 @@ print(results)
 ### 1.3 Types of Research Software
 
 **General Purpose Programming Languages**
-- **Python:** Most popular (data science, machine learning, general)
-- **R:** Statistics and visualization
-- **Julia:** Scientific computing and numerical analysis
+- **[Python](https://www.python.org/):** Most popular (data science, machine learning, general)
+- **[R](https://www.r-project.org/):** Statistics and visualization
+- **[Julia](https://julialang.org/):** Scientific computing and numerical analysis
 - **C/C++:** High-performance computing
-- **Fortran:** Legacy scientific computing
-- **MATLAB:** Engineering and signal processing
+- **[Fortran](https://gcc.gnu.org/fortran/):** Legacy scientific computing
+- **[MATLAB](https://www.mathworks.com/products/matlab.html):** Engineering and signal processing
 
 **Domain-Specific Software:**
 
 **Molecular Dynamics:**
-- GROMACS, AMBER, LAMMPS, NAMD
+- [GROMACS](https://www.gromacs.org/), [AMBER](https://ambermd.org/), [LAMMPS](https://www.lammps.org/), [NAMD](https://www.ks.uiuc.edu/Research/namd/)
 
 **Structural Biology:**
-- PYMOL, VMD, Chimera
+- [PYMOL](https://pymol.org/), [VMD](https://www.ks.uiuc.edu/Research/vmd/), [Chimera](https://www.cgl.ucsf.edu/chimera/)
 
 **Quantum Chemistry:**
-- GAUSSIAN, ORCA, MOPAC
+- [GAUSSIAN](https://gaussian.com/), [ORCA](https://www.factsci.com/orca), [MOPAC](https://www.semi-empirical.com/)
 
 **Climate/Weather:**
-- WRF, CESM, GFDL models
+- [WRF](https://www.mmm.ucar.edu/models/wrf), [CESM](https://www.cesm.ucar.edu/), [GFDL models](https://www.gfdl.noaa.gov/)
 
 **Astronomy/Astrophysics:**
-- Astropy, IRAF, SDSS software
+- [Astropy](https://www.astropy.org/), [IRAF](https://iraf.noaa.gov/), [SDSS software](https://www.sdss.org/)
 
 **Machine Learning:**
-- TensorFlow, PyTorch, Scikit-learn
+- [TensorFlow](https://www.tensorflow.org/), [PyTorch](https://pytorch.org/), [Scikit-learn](https://scikit-learn.org/)
 
 **Genomics:**
-- BLAST, Bowtie, GATK, Samtools
-
-**Importance of Domain Software:**
-- Specialized algorithms optimized for field
-- Community standards and conventions
-- Known limitations and workarounds
-- Peer-reviewed implementations
-- Long-term support and documentation
+- [BLAST](https://blast.ncbi.nlm.nih.gov/), [Bowtie](https://bowtie-bio.sourceforge.net/), [GATK](https://gatk.broadinstitute.org/), [Samtools](http://samtools.sourceforge.net/)
 
 ### 1.4 The Software Development Lifecycle for Research
 
-**Phase 1: Planning and Design**
-- Define requirements and scope
-- Identify similar existing tools
-- Plan overall architecture
-- Document design decisions
-
-**Phase 2: Development**
-- Write initial code
-- Implement core functionality
-- Add features iteratively
-- Test regularly
-
-**Phase 3: Testing and Validation**
-- Write unit tests
-- Verify against known datasets
-- Test edge cases
-- Performance benchmarking
-
-**Phase 4: Documentation**
-- Write README and installation guide
-- Create user tutorials
-- Document API/functions
-- Add code comments
-- Build example scripts
-
-**Phase 5: Release and Distribution**
-- Create stable version
-- Tag release in version control
-- Register in package repositories
-- Assign DOI for archival
-- Publish release notes
-
-**Phase 6: Maintenance**
-- Fix reported bugs
-- Address user questions
-- Update for dependency changes
-- Add requested features
-- Plan major versions
-
-**Phase 7: Archival**
-- Freeze and archive if no longer maintained
-- Clearly mark status
-- Maintain long-term access
-- Preserve with DOI
+```{image} ../images/sdlc_diagram.svg
+:alt: Software Development Lifecycle for Research
+:width: 100%
+```
 
 ### 1.5 Benefits of Open Research Software
 
-**For You (Developer):**
-- **Higher citations:** Open code increases paper citations 20-30%
-- **Collaborations:** Visible code attracts collaborators
-- **Reputation:** Recognized as open science leader
-- **Quality feedback:** Community identifies bugs and improvements
-- **Job opportunities:** Open source experience valued in job market
+The benefits of open research software extend far beyond individual developers to transform entire fields and society. When you share your code openly, you unlock immediate personal advantages: research papers with open code receive 20-30% more citations, visible code attracts collaborators who build on your work, and you gain recognition as an open science leader. Beyond personal benefits, the research community gains tremendously—others can verify your results through reproducible code, avoiding the wasteful duplication of development efforts that plague closed-source approaches. As researchers build upon each other's openly available code, community standards emerge naturally, sparks of innovation ignite from unexpected combinations of existing tools, and future researchers learn best practices through studying well-written, open implementations. Open source experience has also become increasingly valued in the job market, creating tangible career advantages.
 
-**For Your Field:**
-- **Reproducibility:** Others verify your results
-- **Acceleration:** Avoids duplicate development
-- **Best practices:** Community develops standards
-- **Innovation:** Building on others' code sparks new approaches
-- **Training:** Open code teaches future researchers
-
-**For Science and Society:**
-- **Verification:** Transparency enables scrutiny
-- **Equity:** Global access regardless of resources
-- **Efficiency:** Massive resource savings through reuse
-- **Quality:** Peer review catches errors early
-- **Impact:** Better tools improve research across fields
+At a broader scale, open research software benefits all of science and society. Transparency enables scientific scrutiny and catches errors early through peer review and community feedback, while global access to research tools breaks down barriers created by proprietary software—ensuring that researchers in under-resourced regions can participate fully in advancing knowledge. The efficiency gains are enormous: rather than thousands of researchers independently solving identical problems, communities can collectively improve shared tools, multiplying research output across fields. Open software fundamentally democratizes research by making powerful computational tools available regardless of funding or institutional affiliation, accelerating discovery and enabling innovations that might never occur under proprietary lock-in. Ultimately, better tools created through open collaboration improve research quality across every scientific discipline, generating impact that benefits not just science but society as a whole through better solutions to critical problems.
 
 ### 1.6 Challenges and Misconceptions
 
@@ -293,32 +229,32 @@ In this lesson, you learn how to evaluate research software for quality and reli
 **Software Discovery Sources:**
 
 **General Repositories:**
-- **GitHub:** 100+ million repositories, search by language/topic
-- **GitLab:** Similar to GitHub, often with institutional options
-- **SourceForge:** Historical, older projects
+- **[GitHub](https://github.com/):** 100+ million repositories, search by language/topic
+- **[GitLab](https://about.gitlab.com/):** Similar to GitHub, often with institutional options
+- **[SourceForge](https://sourceforge.net/):** Historical, older projects
 
 **Package Repositories:**
-- **PyPI** (Python): 500,000+ packages, `pip search` or web search
-- **CRAN** (R): 20,000+ packages with searchable interface
-- **Bioconductor:** 2,000+ biology packages
-- **npm** (JavaScript): 3 million+ packages
-- **Maven Central** (Java): 500,000+ artifacts
+- **[PyPI](https://pypi.org/)** (Python): 500,000+ packages, `pip search` or web search
+- **[CRAN](https://cran.r-project.org/)** (R): 20,000+ packages with searchable interface
+- **[Bioconductor](https://www.bioconductor.org/):** 2,000+ biology packages
+- **[npm](https://www.npmjs.com/)** (JavaScript): 3 million+ packages
+- **[Maven Central](https://mvnrepository.com/)** (Java): 500,000+ artifacts
 
 **Domain-Specific Registries:**
-- **Bio.Tools:** 15,000+ bioinformatics tools with annotations
-- **Conda-Forge:** 25,000+ scientific packages
-- **Galaxy Tools:** 10,000+ bioinformatics tools
-- **Biohackathon Projects:** Collaborative research tools
+- **[Bio.Tools](https://bio.tools/):** 15,000+ bioinformatics tools with annotations
+- **[Conda-Forge](https://conda-forge.org/):** 25,000+ scientific packages
+- **[Galaxy Tools](https://toolshed.g2.bx.psu.edu/):** 10,000+ bioinformatics tools
+- **[Biohackathon Projects](https://biohackathon.org/):** Collaborative research tools
 
 **Academic Databases:**
-- **SciCrunch:** Research tools with detailed metadata
-- **OMICtools:** Bioinformatics tool directory
-- **Google Scholar:** Search for software papers
+- **[SciCrunch](https://scicrunch.org/):** Research tools with detailed metadata
+- **[OMICtools](https://www.omictools.com/):** Bioinformatics tool directory
+- **[Google Scholar](https://scholar.google.com/):** Search for software papers
 - **Journal supplements:** Tools described in publications
 
 **Community Resources:**
-- **rOpenSci/PyOpenSci:** Curated, peer-reviewed packages
-- **Carpentries:** Training materials mentioning tools
+- **[rOpenSci](https://ropensci.org/)/[PyOpenSci](https://www.pyopensci.org/):** Curated, peer-reviewed packages
+- **[Carpentries](https://carpentries.org/):** Training materials mentioning tools
 - **Research communities:** Reddit r/bioinformatics, etc.
 - **Twitter/Mastodon:** Follow developers in your field
 
@@ -749,8 +685,6 @@ print(result.score)  # 3
 ```
 
 ## Documentation
-See [full documentation](https://docs.example.com)
-```
 
 ### 3.4 Complete Documentation Structure
 
@@ -977,28 +911,13 @@ In this lesson, you understand intellectual property rights for software, explor
 
 **What is Protected?**
 
-**Copyright (Automatic)**
-- Applies to original code automatically
-- Protects your written code
-- Does NOT imply permission to use
-- Default: All rights reserved (without license)
+**Copyright (Automatic):** Copyright applies to original code automatically the moment you write it, protecting your written work without any registration required. However, copyright does NOT automatically imply permission for others to use your code—the default is "all rights reserved," meaning others cannot legally copy, modify, or redistribute your work without explicit permission. This is why licensing matters: without a license, your code is locked down by default, even if you intended it to be open.
 
-**Patents (Registered)**
-- Protect novel algorithms or methods
-- Expensive and time-consuming
-- Less common in research
-- Can restrict reuse
+**Patents (Registered):** Patents protect novel algorithms or methods but require formal registration and are expensive and time-consuming to obtain and defend. Patents are less common in academic research than copyright, but they can significantly restrict reuse if someone has patented a key algorithmic approach your code implements. This is why some researchers worry about using or creating certain types of software—hidden patents can create legal liability.
 
-**Trade Secrets (Confidential)**
-- Proprietary information
-- Requires secrecy to protect
-- Not compatible with open source
+**Trade Secrets (Confidential):** Trade secrets protect proprietary information through secrecy and confidentiality agreements, requiring organizations to take active steps to keep information confidential. Trade secrets are fundamentally incompatible with open source, since sharing code publicly destroys the secrecy that protects the trade secret status. This protection mechanism only works in closed, proprietary environments.
 
-**Licenses (Explicit Permission)**
-- Grant specific permissions
-- Define conditions for use
-- Can be permissive or restrictive
-- Essential for open source
+**Licenses (Explicit Permission):** Licenses solve the copyright problem by explicitly granting specific permissions—telling others what they CAN do with your code. Licenses define conditions for use and can range from very permissive (allowing almost any use) to highly restrictive (limiting use to specific purposes). Licenses are absolutely essential for open source, as they transform code from "locked down by default" into "open with clear rules." Without a license, there is no legal framework for sharing; with a license, sharing becomes both possible and predictable.
 
 ### 4.2 Open Source Licenses Explained
 
@@ -1595,25 +1514,25 @@ project/
 
 ### 5.6 Examples of Sustainable Research Software
 
-**Small, Sustainable Project: R's ggplot2**
+**Small, Sustainable Project: R's [ggplot2](https://ggplot2.tidyverse.org/)**
 - Created: 2007
 - Lines: ~15,000
 - Users: Millions
-- Maintenance: Hadley Wickham (RStudio support)
+- Maintenance: Hadley Wickham ([RStudio](https://www.rstudio.com/) support)
 - Key: Simple, solves one problem well
 
-**Medium, Sustainable: Bioconductor**
+**Medium, Sustainable: [Bioconductor](https://www.bioconductor.org/)**
 - Created: 2002
 - Projects: 2,000+ packages
 - Users: Tens of thousands
 - Maintenance: Organized project
 - Key: Community structure, annual conference
 
-**Large, Sustainable: NumPy/SciPy**
+**Large, Sustainable: [NumPy](https://numpy.org/)/[SciPy](https://scipy.org/)**
 - Created: 2000s
 - Lines: 100,000+
 - Users: Millions
-- Maintenance: NumFOCUS funding, multiple maintainers
+- Maintenance: [NumFOCUS](https://numfocus.org/) funding, multiple maintainers
 - Key: Funding, governance, institutional support
 
 **Success Factors Across Projects:**

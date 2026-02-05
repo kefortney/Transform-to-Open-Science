@@ -1,6 +1,6 @@
-# MModule 4 - Open Results
+# Module 4 - Open Results
 
-Welcome to Open Results! This module focuses on giving you the tools you need to kick-start a scientific collaboration by creating contributor guidelines that ensure ethical contributorship. It starts out with a use case of open science in action, then a review of how to discover and assess open results. Next, the focus is on how to publish results which includes a task checklist. The module wraps up with specific guidance for writing the sharing results section of the Open Science and Data Management Plans (OSDMP). We will also reflect on how our society and technology are constantly evolving in the way we do science.
+This module focuses on giving you the tools you need to kick-start a scientific collaboration by creating contributor guidelines that ensure ethical contributorship. It starts out with a use case of open science in action, then a review of how to discover and assess open results. Next, the focus is on how to publish results which includes a task checklist. The module wraps up with specific guidance for writing the sharing results section of the Open Science and Data Management Plans (OSDMP). We will also reflect on how our society and technology are constantly evolving in the way we do science.
 
 ## Learning Objectives
 
@@ -517,21 +517,21 @@ Consider:
 **4. Transparency Check**
 
 Look for:
-- ✅ Open data availability
-- ✅ Code availability
-- ✅ Protocol registration
-- ✅ Conflict of interest disclosure
-- ✅ Funding transparency
-- ✅ Clear authorship statements
+- Open data availability
+- Code availability
+- Protocol registration
+- Conflict of interest disclosure
+- Funding transparency
+- Clear authorship statements
 
 **5. Reproducibility Indicators**
 
-- ✅ Detailed methods section
-- ✅ Data and code available
-- ✅ Materials/reagents specified
-- ✅ Statistical code shown
-- ✅ Supplementary materials comprehensive
-- ✅ DOIs for data/code
+- Detailed methods section
+- Data and code available
+- Materials/reagents specified
+- Statistical code shown
+- Supplementary materials comprehensive
+- DOIs for data/code
 
 **Assessment Checklist:**
 
@@ -789,7 +789,6 @@ Effectively using open results requires:
 
 By mastering these skills, you become an active participant in the open science ecosystem, building on others' work while advancing your own research.
 
-### Lesson 3: Making Open Results
 
 :::{admonition} Activities for Lesson 2
 :class: activity
@@ -867,7 +866,7 @@ Unpublished results         Selective sharing            Full transparency
 
 **1. Complete Methodology Documentation**
 
-✅ **Include:**
+**Include:**
 - Specific software versions
 - Hardware specifications
 - Random seeds for simulations
@@ -920,7 +919,7 @@ License: CC BY 4.0
 
 **3. Code Availability and Quality**
 
-✅ **Good Code Practices:**
+**Good Code Practices:**
 
 ```r
 # Load libraries
@@ -958,7 +957,7 @@ post_pred <- posterior_predict(model)
 
 **4. Documentation**
 
-**README.md:**
+**README:**
 ```markdown
 # Forest Biodiversity and Climate Analysis
 
@@ -1359,8 +1358,6 @@ Making open results requires:
 
 By following these practices, you produce research that is verifiable, trustworthy, and maximally useful to the scientific community.
 
-### Lesson 4: Sharing Open Results
-
 :::{admonition} Activities for Lesson 3
 :class: activity
 
@@ -1444,32 +1441,32 @@ Open access (OA) means research is freely available online for anyone to read, d
 **1. Gold Open Access (Publisher OA)**
 
 **Advantages:**
-- ✅ Published immediately open
-- ✅ Professionally formatted and copyedited
-- ✅ Appears in journal with full prestige
-- ✅ Citable with journal name
-- ✅ Clear version of record
+- Published immediately open
+- Professionally formatted and copyedited
+- Appears in journal with full prestige
+- Citable with journal name
+- Clear version of record
 
 **Disadvantages:**
-- ✅ Author Pays model: $1,000-$5,000+ per article
-- ✅ Impacts of excessive fees on authors without funding
-- ✅ Not all journals offer
+- Author Pays model: $1,000-$5,000+ per article
+- Impacts of excessive fees on authors without funding
+- Not all journals offer
 
 **Examples:** PLOS, Frontiers, eLife, Nature Communications
 
 **2. Green Open Access (Repository OA)**
 
 **Advantages:**
-- ✅ Free to author and reader
-- ✅ Can self-archive peer-reviewed articles
-- ✅ Publicly available regardless of subscription
-- ✅ No fees required
+- Free to author and reader
+- Can self-archive peer-reviewed articles
+- Publicly available regardless of subscription
+- No fees required
 
 **Disadvantages:**
-- ✅ Embargo periods (6-24 months before can post)
-- ✅ Often only postprint available, not final PDF
-- ✅ Requires author initiative to archive
-- ✅ Visibility lower than gold OA
+- Embargo periods (6-24 months before can post)
+- Often only postprint available, not final PDF
+- Requires author initiative to archive
+- Visibility lower than gold OA
 
 **How it works:**
 1. Publish in traditional journal (author or institution pays)
@@ -1485,15 +1482,15 @@ Open access (OA) means research is freely available online for anyone to read, d
 Journal still has subscription model, but individual articles can be OA for a fee
 
 **Advantages:**
-- ✅ OA available immediately
-- ✅ Author can choose per article
-- ✅ Subscriber access included
-- ✅ Less expensive than full gold OA
+- OA available immediately
+- Author can choose per article
+- Subscriber access included
+- Less expensive than full gold OA
 
 **Disadvantages:**
-- ✅ Still requires author fees
-- ✅ Double-dipping criticism (subscribers + author fees)
-- ✅ Confusing licensing status
+- Still requires author fees
+- Double-dipping criticism (subscribers + author fees)
+- Confusing licensing status
 
 **Examples:** Wiley journals, Springer, Elsevier
 
@@ -1503,15 +1500,15 @@ Journal still has subscription model, but individual articles can be OA for a fe
 Share work before, during, or without peer review
 
 **Advantages:**
-- ✅ Immediate sharing
-- ✅ Establishes precedence
-- ✅ Rapid feedback
-- ✅ Can eventually be published
+- Immediate sharing
+- Establishes precedence
+- Rapid feedback
+- Can eventually be published
 
 **Disadvantages:**
-- ✅ Not peer-reviewed (initially)
-- ✅ Some journals don't accept preprinted work
-- ✅ Needs clear labeling
+- Not peer-reviewed (initially)
+- Some journals don't accept preprinted work
+- Needs clear labeling
 
 **Examples:** ArXiv, bioRxiv, medRxiv, OSF Preprints
 
@@ -1521,15 +1518,15 @@ Share work before, during, or without peer review
 Free for authors and readers, supported by institutions/funding
 
 **Advantages:**
-- ✅ No author fees
-- ✅ No reader fees
-- ✅ True open access
-- ✅ Sustainable funding model
+- No author fees
+- No reader fees
+- True open access
+- Sustainable funding model
 
 **Disadvantages:**
-- ✅ Fewer journals available
-- ✅ May have lower impact factors
-- ✅ Limited resources for support
+- Fewer journals available
+- May have lower impact factors
+- Limited resources for support
 
 **Examples:** European journals often diamond OA, some society journals
 
@@ -1696,82 +1693,17 @@ after 12 months, but not final publisher's PDF.
 
 #### 4.4 Concerns About Open Access and Rebuttals
 
-**Concern 1: "Publishing OA hurts my reputation"**
+**"Publishing OA hurts my reputation"** is largely a myth. Evidence overwhelmingly shows that open access papers receive more citations, the top journals increasingly offer open access options, major funding agencies now mandate open access, and open access is no longer perceived as a lower-quality publication model. The key insight is that quality depends on the journal's rigor and peer review processes, not its access model—many prestigious journals including eLife, PLOS, and Nature Communications are open access, proving that open access is compatible with scientific excellence.
 
-**Myth or Reality?** Myth
+**"OA journals are too expensive"** reflects a real concern, but many solutions exist to make open access affordable. Researchers can use green open access, which is free; publish in diamond open access journals that charge no fees; request fee waivers from publishers (which are commonly granted); use their institution's open access fund; negotiate fees with publishers; or publish preprints first as an immediate open access option. The cost barrier, while real in some cases, is not as insurmountable as it once seemed.
 
-**Evidence:**
-- ✅ OA papers cited more frequently
-- ✅ Top journals increasingly offer OA
-- ✅ Funders mandate OA
-- ✅ OA no longer perceived as lower quality
+**"OA journals have lower impact and quality"** is contradicted by clear evidence. PLOS ONE is highly cited, eLife publishes prestigious research, Nature Communications has high impact factors, and journal impact depends on editorial rigor and peer review quality, not access model. The reality is that quality varies both within open access journals and within closed access journals—a journal's access model is independent of its scientific quality. Evaluating journals should focus on their editorial processes and reputation, not whether they charge subscription fees.
 
-**Reality Check:**
-- Quality depends on journal rigor, not access model
-- Many prestigious journals are OA (eLife, PLOS, Nature Communications)
+**"Preprints are not citable"** is increasingly untrue. ArXiv citations have long been respected in physics and mathematics, BioRxiv citations are growing rapidly, many journals now explicitly allow preprint citations, and preprints receive Digital Object Identifiers (DOIs) that make them permanently citable. The best practice is to cite preprints when appropriate while noting "preprint" in the citation, making the publication status clear to readers.
 
-**Concern 2: "OA journals are too expensive"**
+**"Sharing before publication risks being scooped"** is a concern with minimal actual risk when proper dating mechanisms are in place. Preprints establish a timestamped record of your work, preventing others from claiming priority; they clearly establish precedence in the research community; they build community awareness of your work; and increasingly, journals welcome and encourage preprints. The best practice is to post a preprint or submit your paper quickly to establish priority, which actually strengthens your position rather than weakens it.
 
-**Reality:** Some charge, but alternatives exist
-
-**Solutions:**
-- ✅ Use green OA (free)
-- ✅ Publish in diamond OA (no fees)
-- ✅ Request fee waivers
-- ✅ Use your institution's OA fund
-- ✅ Negotiate with publishers
-- ✅ Publish preprints first
-
-**Concern 3: "OA journals have lower impact/quality"**
-
-**Evidence Against:**
-- ✅ PLOS ONE highly cited
-- ✅ eLife publishes prestigious research
-- ✅ Nature Communications has high impact factor
-- ✅ Journal quality ≠ OA vs. closed
-
-**Reality Check:**
-- Quality varies within OA and closed access
-- Judge journal by rigor, not access model
-
-**Concern 4: "Preprints are not citable"**
-
-**Reality:** Increasingly citable and valued
-
-**Evidence:**
-- ✅ ArXiv citations respected in physics/math
-- ✅ BioRxiv citations growing rapidly
-- ✅ Many journals now allow preprint citations
-- ✅ Preprints have DOIs
-
-**Best Practice:**
-Cite preprints when appropriate, but note "preprint" in citation
-
-**Concern 5: "Sharing before publication risks being scooped"**
-
-**Reality:** Risk is minimal with proper dating
-
-**Protections:**
-- ✅ Preprints have timestamp (prevents scooping)
-- ✅ Establishing precedence
-- ✅ Building community priority
-- ✅ Some journals welcome preprints
-
-**Best Practice:**
-Post preprint or submit paper quickly to establish priority
-
-**Concern 6: "Who will curate and preserve OA publications?"**
-
-**Reality:** Multiple archives ensure preservation
-
-**Preservation Solutions:**
-- ✅ CLOCKSS/LOCKSS: Global digital preservation
-- ✅ Portico: Journal preservation service
-- ✅ Internet Archive: Wayback Machine
-- ✅ Institutional repositories
-- ✅ Discipline repositories
-
-**These services:** Ensure long-term access even if publisher fails
+**"Who will curate and preserve OA publications?"** addresses legitimate concerns about long-term access, but multiple robust systems already ensure preservation. CLOCKSS and LOCKSS provide global digital preservation through distributed archives; Portico is a specialized journal preservation service; the Internet Archive maintains the Wayback Machine; institutional repositories preserve content locally; and discipline-specific repositories (like ArXiv and PubMed Central) ensure that research remains accessible even if a publisher fails. These complementary preservation services mean that open access publications are actually more permanently accessible than closed access publications, which can disappear if a publisher goes out of business or decides to remove content.
 
 #### 4.5 Open Access Best Practices
 
@@ -2146,224 +2078,29 @@ Artificial Intelligence, particularly large language models (LLMs), is transform
 
 #### 5.2.1 How AI Is Changing Scientific Research
 
-**1. Literature Analysis and Synthesis**
+**Literature Analysis and Synthesis:** AI tools like ChatGPT and Claude can rapidly summarize papers, allowing researchers to conduct scoping reviews much faster than before, identify literature gaps, and extract themes and patterns across many studies. This capability has significant implications for open science: comprehensive literature reviews are now possible at unprecedented scale, creating greater demand for machine-readable abstracts and highlighting the value of open access papers for AI processing. The best practice is to verify AI-generated summaries against the original papers, disclose AI tool use in your methods section, use AI for synthesis and initial interpretation rather than as your final source, and always cite the original papers rather than relying on AI summaries alone.
 
-**Current Use:**
-- ChatGPT, Claude summarize papers
-- Scoping reviews conducted faster
-- Literature gaps identified
-- Themes and patterns extracted
+**Data Analysis and Visualization:** AI can generate analysis code from plain language descriptions, create figures and visualizations, suggest appropriate statistical approaches, and identify patterns in large datasets. For example, describing your data to AI and requesting visualization code can instantly produce working R or Python code for exploratory analysis. This accelerates exploratory analyses and speeds up prototyping, but creates risks of inappropriate statistical methods if not carefully verified. The best practice is to verify all generated code before running it, genuinely understand the methods being suggested, include generated code in your analysis repository for transparency, disclose which AI tools were used, and always check whether results pass reasonableness tests before trusting them.
 
-**Implications for Open Science:**
-- More comprehensive literature reviews possible
-- Need for machine-readable abstracts
-- Greater value of open access papers
-- Better discoverability of findings
+**Manuscript Writing and Editing:** AI can improve grammar and style, help outline and organize manuscripts, generate abstracts, enhance clarity of explanations, and translate content between languages. For instance, AI can transform vague descriptions of methods into precise, accurate statements that clearly convey what was done. While AI-assisted writing improves quality and speeds manuscript preparation, there are risks of losing the author's unique voice, introducing subtle accuracy issues, and creating confusion about authorship. The best practice is to use AI for polishing and refinement rather than generation of novel content, maintain scientific accuracy throughout, disclose substantial AI use, verify all AI-assisted content personally, and understand your target journal's guidelines regarding AI use.
 
-**Best Practices:**
-- ✅ Verify AI-generated summaries against originals
-- ✅ Disclose AI tool use in methods
-- ✅ Use for synthesis, not final interpretation
-- ✅ Cite original papers, not AI summaries
-
-**2. Data Analysis and Visualization**
-
-**Current Use:**
-- Generate analysis code from natural language
-- Create figures and visualizations
-- Suggest statistical approaches
-- Identify patterns in large datasets
-
-**Example:**
-```
-Prompt: "I have a CSV with temperature, precipitation, and species 
-richness data. Generate R code to create a correlation plot."
-
-Response: [Generates ggplot code]
-```
-
-**Implications:**
-- ✅ More thorough exploratory analyses
-- ✅ Faster prototyping
-- ⚠️ Risk of inappropriate methods
-- ⚠️ Need for verification
-
-**Best Practices:**
-- ✅ Verify code before running
-- ✅ Understand methods suggested
-- ✅ Include generated code in repository
-- ✅ Disclose AI tool use
-- ✅ Check results for reasonableness
-
-**3. Manuscript Writing and Editing**
-
-**Current Use:**
-- Grammar and style improvement
-- Outlining and organization
-- Abstract generation
-- Clarity enhancement
-- Translation
-
-**Example:**
-```
-Original: "The analyses were performed using statistical methods 
-to determine if there was a relationship."
-
-AI Improved: "We used linear regression to test whether temperature 
-affected species richness."
-```
-
-**Implications:**
-- ✅ Improved writing quality
-- ✅ Faster manuscript preparation
-- ⚠️ Loss of author voice
-- ⚠️ Potential accuracy issues
-- ⚠️ Authorship questions
-
-**Best Practices:**
-- ✅ Use AI for polishing, not generation
-- ✅ Maintain scientific accuracy
-- ✅ Disclose substantial AI use
-- ✅ Verify all AI-assisted content
-- ✅ Understand guidelines for your journal
-
-**4. Hypothesis Generation and Research Design**
-
-**Current Use:**
-- Suggest novel research questions
-- Identify research gaps
-- Design experiments
-- Anticipate results
-
-**Implications:**
-- ✅ Novel research directions
-- ⚠️ May duplicate existing work
-- ⚠️ Potential for inappropriate methods
-
-**Best Practices:**
-- ✅ Use AI suggestions to inspire
-- ✅ Verify novelty through literature review
-- ✅ Consult with experts
-- ✅ Document AI-assisted ideation
+**Hypothesis Generation and Research Design:** AI can suggest novel research questions by identifying gaps in the literature, help design experiments by proposing methodologies, and anticipate potential results. This opens exciting possibilities for novel research directions, but researchers must verify that AI suggestions aren't duplicating existing work and ensure that suggested methods are appropriate for your research questions. The best practice is to use AI suggestions as inspiration rather than final truth, verify novelty through thorough literature review, consult with expert colleagues, and document where AI-assisted ideation contributed to your research design.
 
 #### 5.2.2 Risks and Concerns with AI in Research
 
-**1. Accuracy and Hallucinations**
+**Accuracy and Hallucinations:** A fundamental concern with large language models is that they generate plausible-sounding but false information—a phenomenon called "hallucination." AI tools commonly cite non-existent papers, describe methods differently than they were actually described, and even "invent" statistical results that sound credible but are entirely fabricated. This is why verification is critical: you must cross-check all citations, confirm facts against original sources, and never treat AI as an authority on critical information. The mitigation strategy is to use AI as an assistant that you actively verify rather than trusting its output automatically.
 
-**Issue:** LLMs generate plausible-sounding but false information
+**Authorship and Credit:** Current guidance across most scientific journals is clear: AI cannot be listed as an author, but you must disclose all AI tool use, humans remain responsible for all content, and you should clearly declare the extent of AI assistance. For example, a disclosure might state: "ChatGPT was used to improve grammar and clarity of the final draft" or "Claude assisted with literature synthesis." This transparency ensures that readers understand the role of AI and maintains human accountability for the scientific integrity of the work.
 
-**Example:**
-- AI cites non-existent papers
-- AI describes methods differently than described
-- AI "invents" statistical results
+**Bias in AI Models:** AI systems are trained on existing data, which means they inherit and reproduce the biases present in their training data. This manifests in several ways: overrepresentation of English-language papers means non-English research is underutilized; overrepresentation of certain researchers and institutions skews whose work AI considers authoritative; biased summaries of controversial topics reflect historical biases in the literature; and AI may reinforce preferred methodologies that dominate the training data. The mitigation strategy is to be aware of these limitations, actively seek diverse perspectives beyond what AI recommends, fact-check summary statements, and supplement AI-assisted reviews with manual literature review to catch biases AI might miss.
 
-**Mitigation:**
-- ✅ Verify all AI-generated facts
-- ✅ Cross-check citations
-- ✅ Don't trust AI for critical facts
-- ✅ Use AI as assistant, not authority
+**Intellectual Property and Licensing:** There is significant uncertainty about intellectual property rights when AI systems use copyrighted material. AI systems are often trained on all available papers including paywalled and proprietary content, raising questions about copyright compliance and fair use versus commercial use. The best practice is to use AI tools from reputable providers who can explain their data sources, carefully read and understand their licensing terms, verify their copyright compliance, and when possible favor using AI trained on open science data that raises fewer legal concerns.
 
-**2. Authorship and Credit**
-
-**Issue:** Unclear if AI assistance constitutes authorship
-
-**Current Guidance:**
-- Most journals: AI cannot be author
-- Must disclose AI tool use
-- Human responsible for content
-- Declare extent of AI assistance
-
-**Example Disclosure:**
-```
-Author Contributions: JS and AJ designed the study, collected data, 
-and conducted analyses. All authors wrote the manuscript. ChatGPT 
-was used to improve grammar and clarity of the final draft.
-```
-
-**3. Bias in AI Models**
-
-**Issue:** AI trained on biased data reproduces biases
-
-**Examples:**
-- Overrepresentation of English-language papers
-- Overrepresentation of certain researchers/institutions
-- Biased summaries of controversial topics
-- Preferred methodologies in training data
-
-**Mitigation:**
-- ✅ Be aware of AI training data
-- ✅ Seek diverse perspectives beyond AI
-- ✅ Fact-check summary statements
-- ✅ Supplement with manual literature review
-
-**4. Intellectual Property and Licensing**
-
-**Issue:** Unclear rights when AI uses copyrighted material
-
-**Concerns:**
-- AI trained on all available papers (including paywalled)
-- Copyright and licensing implications
-- Fair use vs. commercial use
-
-**Best Practices:**
-- ✅ Use AI from reputable providers
-- ✅ Understand their data sources
-- ✅ Check licensing terms
-- ✅ Favor open science data
-
-**5. Reproducibility and Transparency**
-
-**Issue:** AI-generated content may not be reproducible
-
-**Challenges:**
-- Different prompts yield different outputs
-- Non-deterministic results
-- Hard to replicate exact AI output
-- Version changes affect results
-
-**Best Practices:**
-- ✅ Document AI prompts used
-- ✅ Include AI-generated content in supplementary
-- ✅ Provide version and date of AI tool
-- ✅ Verify reproducibility independently
+**Reproducibility and Transparency:** AI-generated content presents unique reproducibility challenges. Different prompts to the same AI tool yield different outputs, results are non-deterministic (meaning you can't guarantee the exact same output if you run it again), it's often difficult to replicate the exact AI output a colleague obtained, and updating to newer versions of AI tools produces different results. These issues challenge the scientific principle of reproducibility. The mitigation strategy is to carefully document the exact prompts you used, include AI-generated content in supplementary materials, record the specific AI version and date you used it, and when possible, verify reproducibility independently without relying on AI to produce identical output again.
 
 #### 5.2.3 Opportunities for AI in Open Science
 
-**1. Accelerating Discovery**
-
-- Rapid literature synthesis
-- Pattern identification in large datasets
-- Hypothesis generation
-- Novel connections across fields
-
-**Result:** Faster scientific progress
-
-**2. Improving Accessibility**
-
-- Translation of papers
-- Simplified explanations of complex findings
-- Making science more accessible
-- Reaching broader audiences
-
-**Result:** More equitable science access
-
-**3. Enhancing Reproducibility**
-
-- Automatic code generation
-- Verification of statistics
-- Checking methodology consistency
-- Identifying common errors
-
-**Result:** Higher quality research
-
-**4. Supporting Equity**
-
-- Assistance for non-native speakers
-- Help for researchers in low-resource settings
-- Lowering barriers to publication
-- Assisting with statistical guidance
-
-**Result:** More inclusive science
+AI already demonstrates concrete benefits for open science across multiple dimensions. Literature synthesis using AI tools is accelerating discovery by identifying patterns and connections across large datasets that would take months for humans to review manually. AI assists with accessibility by translating papers across languages and simplifying complex explanations, making research available to broader audiences including researchers in low-resource settings and non-native speakers. Code generation tools are enhancing reproducibility by automatically drafting analysis code, verifying statistical implementations, and checking methodology consistency—catching common errors that might otherwise survive peer review. These tools are actively lowering barriers to publication and providing statistical guidance to researchers who lack formal training in advanced methods. Collectively, these applications demonstrate that AI integration into open science workflows increases research velocity, broadens accessibility, improves quality, and supports equity by making advanced research capabilities available to researchers regardless of their resources or background.
 
 #### 5.2.4 Guidelines for Responsible AI Use in Research
 
@@ -2394,32 +2131,6 @@ was used to improve grammar and clarity of the final draft.
    - Consider access disparities
    - Ensure AI doesn't widen gaps
    - Support inclusive practices
-
-**Specific Guidance:**
-
-**For Literature Review:**
-- ✅ Use AI to organize and summarize
-- ✅ Do your own synthesis
-- ✅ Verify key facts
-- ✅ Don't skip reading original papers
-
-**For Data Analysis:**
-- ✅ Use AI to generate starter code
-- ✅ Understand what code does
-- ✅ Test thoroughly
-- ✅ Disclose AI assistance
-
-**For Writing:**
-- ✅ Use for editing, not generation
-- ✅ Maintain your voice and ideas
-- ✅ Verify all content
-- ✅ Disclose substantial assistance
-
-**For Idea Generation:**
-- ✅ Use as brainstorming partner
-- ✅ Verify novelty independently
-- ✅ Don't over-rely on AI suggestions
-- ✅ Consult with colleagues
 
 #### 5.3 Implementation Roadmap for Open Results
 
@@ -2652,8 +2363,6 @@ From theory to practice requires:
 5. **Commitment:** Sustained effort to advance open science
 
 By putting these principles into practice, you contribute to a more transparent, reproducible, and impactful scientific enterprise that serves both the research community and society at large.
-
-## References
 
 :::{admonition} Activities for Lesson 5
 :class: activity
