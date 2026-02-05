@@ -1066,23 +1066,13 @@ Building an open science toolkit is a gradual process, not an all-at-once migrat
 
 ### 5.8 Measuring Success
 
-**Tool Adoption Metrics:**
-- Consistency: Regular commits, updates
-- Discoverability: DOI cited in publications
-- Collaboration: Pull requests, contributions
-- Impact: Citation metrics from Altmetric, ORCID
+Measuring success with open science tools means tracking three interconnected dimensions: adoption, process, and impact.
 
-**Process Improvements:**
-- Time saved through reuse of documented code
-- Reproducibility verified through others using your tools/data
-- Efficiency gains from automation
-- Team alignment and reduced miscommunication
+**Tool Adoption** demonstrates whether your toolkit is becoming integrated into your workflow. Consistency—measured by regular commits, updates, and active use—shows that tools are becoming habitual rather than burdensome. Discoverability indicates that your work is being found; tracking how often your DOI is cited in publications reflects whether others are discovering and using your outputs. Collaboration metrics like pull requests and contributions reveal whether your open practices are attracting co-workers and peer engagement. Finally, citation metrics from services like Altmetric and your ORCID profile aggregate signals of your research's reach and influence.
 
-**Research Impact:**
-- Citations to your work (DOI tracking)
-- Reuse of your code/data
-- Collaboration opportunities from visible work
-- Funding success (increasingly valued by funders)
+**Process Improvements** capture how tools change your day-to-day research work. You may find time savings through the reuse of well-documented code and existing workflows, reducing the need to rebuild analyses from scratch. Reproducibility becomes verifiable when others use your tools or data and independently confirm your results, validating your documentation and methods. Efficiency gains accumulate through automation—version control branches, CI/CD pipelines, and preregistration templates all reduce manual steps. Team alignment improves when tools create shared project spaces and searchable records, reducing miscommunication and duplicate effort.
+
+**Research Impact** captures the ultimate benefit of open science tools: increased visibility, collaboration, and funding success. Citations to your work—tracked through DOI resolution and ORCID profiles—demonstrate recognition of your contributions. The reuse of your code and data by other researchers extends the value of your work beyond your own projects and supports the broader mission of open science. Visible, well-documented work creates collaboration opportunities as other researchers discover your expertise and approach you for partnerships. Finally, open science practices are increasingly valued by funders, who recognize that transparency, reproducibility, and broad dissemination advance science more effectively than closed practices.
 
 ### Summary
 
@@ -1126,4 +1116,3 @@ Join one community (The Carpentries, rOpenSci, RSE, or a discipline-specific gro
 **Activity 5.4: Publish a Minimal Example**
 Publish a small code or data artifact with documentation and a clear license. If possible, archive a release in Zenodo to obtain a DOI.
 
-**Welcome to the open science tools community. Let's make research better together.**
