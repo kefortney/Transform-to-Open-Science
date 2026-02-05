@@ -1,4 +1,4 @@
-# Module 3: Open Data
+# Module 2 - Open Data
 
 This module focuses on the practice and application of open science for data. It provides a 'how to' process for finding and assessing open data for use, for making open data and for sharing open data. The step-by-step flows are easy to follow and can be used as checklists after you complete the module. Some of the key topics discussed include: data management plans, the process for assessing data for reuse, creating a plan for making data including choosing open formats and adding documentation, and the considerations for sharing data and making your data citable.
 

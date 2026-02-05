@@ -1,4 +1,4 @@
-# Module 1: The Ethos of Open Science
+# Module 1 - Open Science Ethos
 
 Welcome to this introductory module on open science. Open Science is the principle and practice of making research products and processes available to all, while respecting diverse cultures, maintaining security and privacy, and fostering collaborations, reproducibility, and equity. In this module, you take a closer look at what open science is, the current landscape as well as the benefits and challenges. You then get a glimpse into the practice of open science, including a case study. To start your journey with open science, you are presented with actions that you can take starting today, such as exploring communities that you can engage with.
 

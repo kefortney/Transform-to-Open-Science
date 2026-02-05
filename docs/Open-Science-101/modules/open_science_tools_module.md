@@ -1,4 +1,4 @@
-# Open Science Tools and Software
+# Module 5 - Open Science Tools
 
 ## Introduction
 

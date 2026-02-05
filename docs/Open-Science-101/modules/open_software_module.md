@@ -1,4 +1,4 @@
-# Open Software and Code
+# Module 3 - Open Software
 
 ## Introduction
 

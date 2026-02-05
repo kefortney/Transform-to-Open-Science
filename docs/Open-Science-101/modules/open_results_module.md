@@ -1,4 +1,4 @@
-# Module 5: Open Results
+# MModule 4 - Open Results
 
 Welcome to Open Results! This module focuses on giving you the tools you need to kick-start a scientific collaboration by creating contributor guidelines that ensure ethical contributorship. It starts out with a use case of open science in action, then a review of how to discover and assess open results. Next, the focus is on how to publish results which includes a task checklist. The module wraps up with specific guidance for writing the sharing results section of the Open Science and Data Management Plans (OSDMP). We will also reflect on how our society and technology are constantly evolving in the way we do science.
 
