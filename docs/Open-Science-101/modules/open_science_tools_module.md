@@ -4,14 +4,15 @@
 
 Open science tools are digital resources and instruments that support research through data storage, code collaboration, persistent identification, documentation, and community engagement. These tools are essential for implementing open science practices, enabling reproducibility, and facilitating collaboration.
 
-## Module Overview
+## Learning Objectives
 
-This module covers the essential tools and platforms used in open science research:
-- Lesson 1: Repositories and Data Storage
-- Lesson 2: Version Control and Collaboration
-- Lesson 3: Persistent Identifiers and Citation
-- Lesson 4: Open Science Software Ecosystems
-- Lesson 5: Building Your Open Science Toolkit
+After completing this module, you should be able to:
+- Describe the purpose and types of repositories used in open science, including development repositories, data archives, and discipline-specific platforms.
+- Explain version control systems and how they enable collaborative research through tracking changes and managing contributions.
+- Understand persistent identifiers (DOIs, ORCIDs, ARKs) and how they enable citation, discoverability, and long-term access to research outputs.
+- Evaluate open science tools and platforms to select appropriate ones for your research workflow and data management needs.
+- Implement a comprehensive toolkit combining repositories, version control, persistent identifiers, and collaboration tools.
+- Build sustainable practices for managing, sharing, and preserving research outputs using appropriate open science infrastructure.
 
 ---
 

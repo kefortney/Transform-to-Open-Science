@@ -4,14 +4,14 @@
 
 Open software and code are critical components of open science research. This module explores the principles of open software development, assessment criteria, documentation standards, licensing frameworks, and practical implementation strategies for creating and maintaining research software.
 
-## Module Overview
+## Learning Objectives
 
-This module covers essential aspects of open software in research:
-- Lesson 1: Understanding Research Software
-- Lesson 2: Assessing and Using Open Software
-- Lesson 3: Writing and Documenting Research Code
-- Lesson 4: Licensing and Sharing Software
-- Lesson 5: Building Sustainable Research Software
+After completing this module, you should be able to:
+- Define research software and understand its spectrum from scripts to professional packages, as well as the software development lifecycle specific to research contexts.
+- Discover, evaluate, and assess open research software for functionality, usability, reliability, and performance before integrating it into your research.
+- Write high-quality, well-documented, and maintainable research code following best practices for readability, style, documentation, and testing.
+- Apply appropriate open source licenses to research software, prepare code for sharing, and understand how to make software discoverable and citable.
+- Develop comprehensive strategies for creating and maintaining sustainable research software with community engagement and long-term preservation.
 
 ---
 
