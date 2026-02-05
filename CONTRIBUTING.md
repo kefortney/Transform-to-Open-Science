@@ -2,6 +2,8 @@
 
 This page is your one-stop shop for uncovering the many resources for open science that are on the GitHub! Read on to learn more about how to use our GitHub, how to engage with us, and identify resources to help you, your research team, and your organization get started with open science.
 
+[https://github.com/VERSO-UVM/Open-Science-101](https://github.com/VERSO-UVM/Open-Science-101)
+
 Before contributing, please read our [License](./LICENSE.md) and our [Code of Conduct](./CODE_OF_CONDUCT.md). A summary of the code of conduct is also below.
 
 ## We Want Your Help!
