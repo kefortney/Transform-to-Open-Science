@@ -11,8 +11,6 @@ chapters:
   title: Module 4 - Open Results
 - file: docs/Open-Science-101/modules/open_science_tools_module.md
   title: Module 5 - Open Science Tools
-- file: docs/Open-Science-101/modules/open_tools_module.md
-  title: Open Tools & Frameworks
 - file: docs/Open-Science-101/modules/bibliography.md
   title: Bibliography & Resources
 - file: docs/Open-Science-101/modules/course_guidance.md

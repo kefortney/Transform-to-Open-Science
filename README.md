@@ -1,5 +1,4 @@
-# Transform to Open Science (TOPS)
-## Open Science 101 Course
+# Open Science 101 Course
 
 ## About This Project
 
