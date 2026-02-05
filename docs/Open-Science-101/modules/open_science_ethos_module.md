@@ -75,29 +75,29 @@ The societal benefits of open science are profound and far-reaching, extending w
 
 Open science is a fundamental shift toward making research more accessible, transparent, collaborative, reproducible, and equitable for all.
 
-#### Lesson 1 Activity: Map Open Science to Your Research
-
-**Objective:** Identify how open science principles apply to your own research or a research project you're familiar with.
-
-**Instructions:**
-
-1. **Select a research project:** Choose your current or recent research project, or one you know well.
-
-2. **Map to the USE-MAKE-SHARE framework:** For your selected project, identify:
-   - **USE:** What existing open research or data did you build upon? What additional open resources could have accelerated your work?
-   - **MAKE:** Which aspects of your methodology are currently transparent? What documentation could be improved?
-   - **SHARE:** How are you currently sharing your findings and data? What barriers prevent fuller sharing?
-
-3. **Assess against open science characteristics:** Rate your project on a scale of 1-5 for each characteristic:
-   - Accessible
-   - Transparent
-   - Collaborative
-   - Inclusive
-   - Accountable
-
-4. **Reflect:** Write 2-3 sentences about which open science principle resonates most with your research goals, and which presents the greatest challenge.
-
-**Deliverable:** A brief written reflection (150-200 words) on your research project's alignment with open science principles.
+> #### Lesson 1 Activity: Map Open Science to Your Research
+> 
+> **Objective:** Identify how open science principles apply to your own research or a research project you're familiar with.
+> 
+> **Instructions:**
+> 
+> 1. **Select a research project:** Choose your current or recent research project, or one you know well.
+> 
+> 2. **Map to the USE-MAKE-SHARE framework:** For your selected project, identify:
+>    - **USE:** What existing open research or data did you build upon? What additional open resources could have accelerated your work?
+>    - **MAKE:** Which aspects of your methodology are currently transparent? What documentation could be improved?
+>    - **SHARE:** How are you currently sharing your findings and data? What barriers prevent fuller sharing?
+> 
+> 3. **Assess against open science characteristics:** Rate your project on a scale of 1-5 for each characteristic:
+>    - Accessible
+>    - Transparent
+>    - Collaborative
+>    - Inclusive
+>    - Accountable
+> 
+> 4. **Reflect:** Write 2-3 sentences about which open science principle resonates most with your research goals, and which presents the greatest challenge.
+> 
+> **Deliverable:** A brief written reflection (150-200 words) on your research project's alignment with open science principles.
 
 ### Lesson 2: Why is Open Science Important?
 
@@ -217,26 +217,26 @@ The academic incentive structure prioritizes publishing quickly and frequently o
 
 Open science offers substantial benefits for careers and society while most barriers can be overcome through planning, community support, and creative solutions.
 
-#### Lesson 2 Activity: Personal Benefits and Barriers Assessment
-
-**Objective:** Identify how open science benefits and barriers specifically apply to your research context and career stage.
-
-**Instructions:**
-
-1. **Create two columns** on paper or digitally:
-   - **Column A: Benefits** - List the open science benefits most relevant to your career goals
-   - **Column B: Barriers** - List the specific barriers you anticipate encountering
-
-2. **Prioritize your benefits:** Rank your top 3 benefits by how impactful they could be for your career.
-
-3. **Analyze your barriers:** For your top 3 barriers, identify:
-   - Is this barrier personal, social/cultural, or institutional/infrastructure-based?
-   - What resources or support could help overcome this barrier?
-   - Who might you ask for help?
-
-4. **Create action items:** For each of your top 3 barriers, write one concrete action you could take in the next 3 months to reduce that barrier.
-
-**Deliverable:** A completed benefits/barriers assessment (1-2 pages) with prioritized barriers and concrete action items.
+> #### Lesson 2 Activity: Personal Benefits and Barriers Assessment
+> 
+> **Objective:** Identify how open science benefits and barriers specifically apply to your research context and career stage.
+> 
+> **Instructions:**
+> 
+> 1. **Create two columns** on paper or digitally:
+>    - **Column A: Benefits** - List the open science benefits most relevant to your career goals
+>    - **Column B: Barriers** - List the specific barriers you anticipate encountering
+> 
+> 2. **Prioritize your benefits:** Rank your top 3 benefits by how impactful they could be for your career.
+> 
+> 3. **Analyze your barriers:** For your top 3 barriers, identify:
+>    - Is this barrier personal, social/cultural, or institutional/infrastructure-based?
+>    - What resources or support could help overcome this barrier?
+>    - Who might you ask for help?
+> 
+> 4. **Create action items:** For each of your top 3 barriers, write one concrete action you could take in the next 3 months to reduce that barrier.
+> 
+> **Deliverable:** A completed benefits/barriers assessment (1-2 pages) with prioritized barriers and concrete action items.
 
 ### Lesson 3: How to Do Open Science
 
@@ -361,36 +361,36 @@ Doing open science responsibly means:
 4. Being transparent about any restrictions
 5. Balancing openness with necessary safeguards
 
-#### Lesson 3 Activity: Create a Data Sharing Plan for Your Research
-
-**Objective:** Develop a practical plan for responsibly sharing research data while protecting privacy and respecting constraints.
-
-**Instructions:**
-
-1. **Select a research dataset:** Choose a dataset from your research (real or hypothetical).
-
-2. **Privacy and sensitivity assessment:** Identify:
-   - What types of data are sensitive? (health, location, identifiable information, etc.)
-   - Does your data contain personally identifiable information (PII)?
-   - Would de-identification compromise the research value?
-   - What consent did research subjects provide for data sharing?
-
-3. **License selection:** Based on your dataset type:
-   - Which open license best fits your goals? (CC0, CC BY, CC BY-SA, other)
-   - Why did you choose this license?
-
-4. **Constraint navigation:** Identify:
-   - Does your funder require data sharing? What are their specific requirements?
-   - Does your institution have policies affecting data sharing rights?
-   - Are there publisher restrictions on depositing preprints or postprints?
-
-5. **Create a data sharing plan** that addresses:
-   - What data will be shared? What will remain restricted and why?
-   - How and where will data be shared?
-   - What timeline for sharing? (immediate, embargo period, graduated release)
-   - What license will be used?
-
-**Deliverable:** A 1-2 page data sharing plan for your selected dataset.
+> #### Lesson 3 Activity: Create a Data Sharing Plan for Your Research
+> 
+> **Objective:** Develop a practical plan for responsibly sharing research data while protecting privacy and respecting constraints.
+> 
+> **Instructions:**
+> 
+> 1. **Select a research dataset:** Choose a dataset from your research (real or hypothetical).
+> 
+> 2. **Privacy and sensitivity assessment:** Identify:
+>    - What types of data are sensitive? (health, location, identifiable information, etc.)
+>    - Does your data contain personally identifiable information (PII)?
+>    - Would de-identification compromise the research value?
+>    - What consent did research subjects provide for data sharing?
+> 
+> 3. **License selection:** Based on your dataset type:
+>    - Which open license best fits your goals? (CC0, CC BY, CC BY-SA, other)
+>    - Why did you choose this license?
+> 
+> 4. **Constraint navigation:** Identify:
+>    - Does your funder require data sharing? What are their specific requirements?
+>    - Does your institution have policies affecting data sharing rights?
+>    - Are there publisher restrictions on depositing preprints or postprints?
+> 
+> 5. **Create a data sharing plan** that addresses:
+>    - What data will be shared? What will remain restricted and why?
+>    - How and where will data be shared?
+>    - What timeline for sharing? (immediate, embargo period, graduated release)
+>    - What license will be used?
+> 
+> **Deliverable:** A 1-2 page data sharing plan for your selected dataset.
 
 ### Lesson 4: When Not to Be Open
 
@@ -487,33 +487,33 @@ Barriers are real but manageable:
 - Systemic barriers: Advocate for change, support alternatives
 - Legitimate restrictions: Balance with transparency through graduated openness
 
-#### Lesson 4 Activity: Develop Strategies to Overcome Your Barriers
-
-**Objective:** Create specific, actionable strategies to address the barriers you identified in Lesson 2.
-
-**Instructions:**
-
-1. **Revisit your top 3 barriers** from the Lesson 2 activity.
-
-2. **For each barrier, develop a strategy:**
-   - **Acknowledge the reality:** Why is this genuinely a barrier in your context?
-   - **Find the solution:** Which solution from this lesson best addresses your situation?
-   - **Identify support:** What resources, people, or communities could help?
-   - **Create a small step:** What is one small action you could take this month?
-
-3. **Address legitimate restrictions (if applicable):**
-   - If your research involves sensitive data, privacy concerns, IP issues, safety concerns, or cultural knowledge, create a graduated openness plan showing:
-     - What you will share immediately
-     - What you will share after embargo
-     - What requires restricted access and why
-     - Your timeline for opening each level
-
-4. **Build your support network:**
-   - Identify 2-3 specific people (mentors, colleagues, librarians) you could ask for support
-   - Identify 1-2 communities relevant to your discipline or methods
-   - List 1-2 free tools or resources you could use
-
-**Deliverable:** A barrier reduction strategy document (1-2 pages) showing your specific approach to overcoming your top 3 barriers, including support network and free resources.
+> #### Lesson 4 Activity: Develop Strategies to Overcome Your Barriers
+> 
+> **Objective:** Create specific, actionable strategies to address the barriers you identified in Lesson 2.
+> 
+> **Instructions:**
+> 
+> 1. **Revisit your top 3 barriers** from the Lesson 2 activity.
+> 
+> 2. **For each barrier, develop a strategy:**
+>    - **Acknowledge the reality:** Why is this genuinely a barrier in your context?
+>    - **Find the solution:** Which solution from this lesson best addresses your situation?
+>    - **Identify support:** What resources, people, or communities could help?
+>    - **Create a small step:** What is one small action you could take this month?
+> 
+> 3. **Address legitimate restrictions (if applicable):**
+>    - If your research involves sensitive data, privacy concerns, IP issues, safety concerns, or cultural knowledge, create a graduated openness plan showing:
+>      - What you will share immediately
+>      - What you will share after embargo
+>      - What requires restricted access and why
+>      - Your timeline for opening each level
+> 
+> 4. **Build your support network:**
+>    - Identify 2-3 specific people (mentors, colleagues, librarians) you could ask for support
+>    - Identify 1-2 communities relevant to your discipline or methods
+>    - List 1-2 free tools or resources you could use
+> 
+> **Deliverable:** A barrier reduction strategy document (1-2 pages) showing your specific approach to overcoming your top 3 barriers, including support network and free resources.
 
 ### Lesson 5: Planning for Open Science - From Theory to Practice
 
@@ -668,41 +668,41 @@ While these systemic changes are encouraging, they are not inevitable or automat
 
 **Welcome to the open science community. Let's build the future of research together.**
 
-#### Lesson 5 Activity: Create Your Personal Open Science Implementation Plan
-
-**Objective:** Develop a concrete, actionable 12-month plan for adopting open science practices in your research.
-
-**Instructions:**
-
-1. **Assessment (Complete Lesson 5.1 steps 1-4):**
-   - What are you already doing well that aligns with open science?
-   - What are realistic opportunities to improve?
-   - What constraints or barriers exist in your context?
-   - Set specific goals for the next 12 months
-
-2. **Choose your quarterly focus areas:**
-   - **Quarter 1:** What foundational skill or tool will you learn? (e.g., Git basics, documentation practices)
-   - **Quarter 2:** What publication or sharing practice will you adopt? (e.g., preprints, choosing licenses)
-   - **Quarter 3:** What infrastructure will you set up? (e.g., code repository, data management)
-   - **Quarter 4:** What community engagement or advocacy will you undertake?
-
-3. **Build your support network:**
-   - Identify at least one mentor or supportive colleague
-   - Choose one community to engage with (from Lesson 5.2)
-   - List 2-3 resources you'll use for learning
-
-4. **Define success metrics:**
-   - By end of Q1: What will you have accomplished?
-   - By end of Q2: What will you have accomplished?
-   - By end of Q3: What will you have accomplished?
-   - By end of Q4: What will you have accomplished?
-
-5. **Identify sustainability practices:**
-   - Monthly: What will you do to maintain your open science practices?
-   - Quarterly: What will you review and update?
-   - Annually: How will you reflect on progress and adjust goals?
-
-**Deliverable:** A completed personal implementation plan (2-3 pages) with quarterly goals, specific actions, support network, and success metrics. This plan should be specific enough to guide your actions for the next year.
+> #### Lesson 5 Activity: Create Your Personal Open Science Implementation Plan
+> 
+> **Objective:** Develop a concrete, actionable 12-month plan for adopting open science practices in your research.
+> 
+> **Instructions:**
+> 
+> 1. **Assessment (Complete Lesson 5.1 steps 1-4):**
+>    - What are you already doing well that aligns with open science?
+>    - What are realistic opportunities to improve?
+>    - What constraints or barriers exist in your context?
+>    - Set specific goals for the next 12 months
+> 
+> 2. **Choose your quarterly focus areas:**
+>    - **Quarter 1:** What foundational skill or tool will you learn? (e.g., Git basics, documentation practices)
+>    - **Quarter 2:** What publication or sharing practice will you adopt? (e.g., preprints, choosing licenses)
+>    - **Quarter 3:** What infrastructure will you set up? (e.g., code repository, data management)
+>    - **Quarter 4:** What community engagement or advocacy will you undertake?
+> 
+> 3. **Build your support network:**
+>    - Identify at least one mentor or supportive colleague
+>    - Choose one community to engage with (from Lesson 5.2)
+>    - List 2-3 resources you'll use for learning
+> 
+> 4. **Define success metrics:**
+>    - By end of Q1: What will you have accomplished?
+>    - By end of Q2: What will you have accomplished?
+>    - By end of Q3: What will you have accomplished?
+>    - By end of Q4: What will you have accomplished?
+> 
+> 5. **Identify sustainability practices:**
+>    - Monthly: What will you do to maintain your open science practices?
+>    - Quarterly: What will you review and update?
+>    - Annually: How will you reflect on progress and adjust goals?
+> 
+> **Deliverable:** A completed personal implementation plan (2-3 pages) with quarterly goals, specific actions, support network, and success metrics. This plan should be specific enough to guide your actions for the next year.
 
 #### Module Completion Reflection
 
